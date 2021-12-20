@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E6D2DD1427700F8C007BA04B /* IE_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2DD1327700F8C007BA04B /* IE_AppApp.swift */; };
+		E6D2DD1427700F8C007BA04B /* IE_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2DD1327700F8C007BA04B /* IE_App.swift */; };
 		E6D2DD1627700F8C007BA04B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2DD1527700F8C007BA04B /* MainTabView.swift */; };
 		E6D2DD1827700F90007BA04B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D2DD1727700F90007BA04B /* Assets.xcassets */; };
 		E6D2DD1B27700F90007BA04B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D2DD1A27700F90007BA04B /* Preview Assets.xcassets */; };
@@ -16,11 +16,12 @@
 		E6D2DD272770119D007BA04B /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2DD262770119D007BA04B /* CalendarView.swift */; };
 		E6D2DD29277011AA007BA04B /* AnnouncementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2DD28277011AA007BA04B /* AnnouncementsView.swift */; };
 		E6D2DD2B277011D0007BA04B /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2DD2A277011D0007BA04B /* MoreView.swift */; };
+		E6D2DD30277017AB007BA04B /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = E6D2DD2F277017AB007BA04B /* users.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E6D2DD1027700F8C007BA04B /* IE App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IE App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6D2DD1327700F8C007BA04B /* IE_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IE_AppApp.swift; sourceTree = "<group>"; };
+		E6D2DD1327700F8C007BA04B /* IE_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IE_App.swift; sourceTree = "<group>"; };
 		E6D2DD1527700F8C007BA04B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		E6D2DD1727700F90007BA04B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6D2DD1A27700F90007BA04B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -29,6 +30,7 @@
 		E6D2DD262770119D007BA04B /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		E6D2DD28277011AA007BA04B /* AnnouncementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsView.swift; sourceTree = "<group>"; };
 		E6D2DD2A277011D0007BA04B /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		E6D2DD2F277017AB007BA04B /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,11 @@
 		E6D2DD1227700F8C007BA04B /* IE App */ = {
 			isa = PBXGroup;
 			children = (
-				E6D2DD1327700F8C007BA04B /* IE_AppApp.swift */,
+				E6D2DD1327700F8C007BA04B /* IE_App.swift */,
 				E6D2DD21277010A1007BA04B /* Views */,
+				E6D2DD2C277016E9007BA04B /* ViewModels */,
+				E6D2DD2D2770172D007BA04B /* Models */,
+				E6D2DD2E27701758007BA04B /* Data */,
 				E6D2DD1727700F90007BA04B /* Assets.xcassets */,
 				E6D2DD1927700F90007BA04B /* Preview Content */,
 			);
@@ -88,6 +93,28 @@
 				E6D2DD2A277011D0007BA04B /* MoreView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		E6D2DD2C277016E9007BA04B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E6D2DD2D2770172D007BA04B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E6D2DD2E27701758007BA04B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E6D2DD2F277017AB007BA04B /* users.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D2DD30277017AB007BA04B /* users.json in Resources */,
 				E6D2DD1B27700F90007BA04B /* Preview Assets.xcassets in Resources */,
 				E6D2DD1827700F90007BA04B /* Assets.xcassets in Resources */,
 			);
@@ -165,7 +193,7 @@
 				E6D2DD29277011AA007BA04B /* AnnouncementsView.swift in Sources */,
 				E6D2DD1627700F8C007BA04B /* MainTabView.swift in Sources */,
 				E6D2DD232770114A007BA04B /* ProfileView.swift in Sources */,
-				E6D2DD1427700F8C007BA04B /* IE_AppApp.swift in Sources */,
+				E6D2DD1427700F8C007BA04B /* IE_App.swift in Sources */,
 				E6D2DD2527701161007BA04B /* CoursesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

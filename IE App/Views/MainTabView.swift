@@ -9,52 +9,48 @@ import SwiftUI
 
 struct MainTabView: View {
     var body: some View {
-        VStack {
-            TabView {
-                
-                ProfileView()
-                    .tabItem {
-                        VStack {
-                            Image(systemName: "person.crop.circle")
-                            Text("Profile")
-                        }
+        TabView {
+            
+            ProfileView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "person.crop.circle")
+                        Text("Profile")
                     }
-                
-                CoursesView()
-                    .tabItem {
-                        VStack {
-                            Image(systemName: "books.vertical")
-                            Text("Courses")
-                        }
+                }
+            
+            CoursesView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "books.vertical")
+                        Text("Courses")
                     }
-                
-                CalendarView()
-                    .tabItem {
-                        VStack {
-                            Image(systemName: "calendar")
-                            Text("Calendar")
-                        }
+                }
+            
+            CalendarView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "calendar")
+                        Text("Calendar")
                     }
-                
-                AnnouncementsView()
-                    .tabItem {
-                        VStack {
-                            Image(systemName: "bell.badge")
-                            Text("Announcements")
-                        }
+                }
+            
+            AnnouncementsView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "bell.badge")
+                        Text("Announcements")
                     }
-                
-                MoreView()
-                    .tabItem {
-                        VStack {
-                            Image(systemName: "list.bullet")
-                            Text("More")
-                        }
+                }
+            
+            MoreView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "list.bullet")
+                        Text("More")
                     }
-                
-            }
+                }
         }
-        
     }
 }
 

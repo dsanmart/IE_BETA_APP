@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct IE_AppApp: App {
+struct IE_App: App {
     var body: some Scene {
         WindowGroup {
             MainTabView()
