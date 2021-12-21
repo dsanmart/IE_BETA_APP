@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6A4E4B42771A9E5004A13A3 /* ProfileCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4E4B32771A9E5004A13A3 /* ProfileCardView.swift */; };
 		E6D2DD1427700F8C007BA04B /* IE_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2DD1327700F8C007BA04B /* IE_App.swift */; };
 		E6D2DD1627700F8C007BA04B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2DD1527700F8C007BA04B /* MainTabView.swift */; };
 		E6D2DD1827700F90007BA04B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D2DD1727700F90007BA04B /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E6A4E4B32771A9E5004A13A3 /* ProfileCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardView.swift; sourceTree = "<group>"; };
 		E6D2DD1027700F8C007BA04B /* IE App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IE App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D2DD1327700F8C007BA04B /* IE_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IE_App.swift; sourceTree = "<group>"; };
 		E6D2DD1527700F8C007BA04B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				E6D2DD262770119D007BA04B /* CalendarView.swift */,
 				E6D2DD28277011AA007BA04B /* AnnouncementsView.swift */,
 				E6D2DD2A277011D0007BA04B /* MoreView.swift */,
+				E6A4E4B32771A9E5004A13A3 /* ProfileCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				E6D2DD1627700F8C007BA04B /* MainTabView.swift in Sources */,
 				E6D2DD232770114A007BA04B /* ProfileView.swift in Sources */,
 				E6D2DD1427700F8C007BA04B /* IE_App.swift in Sources */,
+				E6A4E4B42771A9E5004A13A3 /* ProfileCardView.swift in Sources */,
 				E6D2DD2527701161007BA04B /* CoursesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

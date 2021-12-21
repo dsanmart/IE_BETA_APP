@@ -9,6 +9,7 @@ import SwiftUI
 
 struct MainTabView: View {
     var body: some View {
+        
         TabView {
             
             ProfileView()
@@ -57,6 +58,6 @@ struct MainTabView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         MainTabView()
-            .previewDevice("iPhone 11")
+            .previewDevice("iPhone SE (2nd generation)")
     }
 }
