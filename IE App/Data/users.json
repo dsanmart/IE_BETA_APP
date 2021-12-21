@@ -10,11 +10,11 @@
             {"id": "03593420B"}
         ],
         "blackboardData" : [
-            {"studentId": "14461", "image": "diegosanmartin.jpg", "name":"Diego Sanmartin"},
+            {"studentId": "14461", "image": "diegosanmartin", "name":"Diego Sanmartin"},
             {"courses": [
                 {"Calculus for Computer Science": [
                     {"quarter": 1},
-                    {"course_image":"calculus_background.jpg"},
+                    {"course_image":"calculus_background"},
                     {"professor": "Miguel Vaquero Vallina"},
                     {"roster": [
                         {"student": "Diego Sanmartin", "image":"diego.jpg"},
@@ -45,7 +45,7 @@
                 ]},
                 {"Designing and Using Databases": [
                     {"quarter": 2},
-                    {"course_image":"databases_background.jpg"},
+                    {"course_image":"databases_background"},
                     {"professor": "Robert David Polding"},
                     {"roster": [
                         {"student": "Diego Sanmartin", "image":"diego.jpg"},

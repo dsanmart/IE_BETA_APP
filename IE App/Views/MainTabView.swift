@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct MainTabView: View {
+    init() {
+        UITabBar.appearance().backgroundColor = UIColor.systemGray6
+    }
     var body: some View {
         
         TabView {
@@ -58,6 +61,6 @@ struct MainTabView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         MainTabView()
-            .previewDevice("iPhone SE (2nd generation)")
+            .previewDevice("iPhone 11")
     }
 }
