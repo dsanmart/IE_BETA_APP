@@ -4,6 +4,9 @@
 //
 //  Created by Diego Sanmartin on 22/12/2021.
 //
+// Link on reseting navigation stack when switching tabs
+// https://coderedirect.com/questions/157201/tabview-resets-navigation-stack-when-switching-tabs
+//
 
 import SwiftUI
 

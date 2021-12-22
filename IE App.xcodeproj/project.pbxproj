@@ -14,6 +14,7 @@
 		E67BCD2B2773042A002342E2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BCD2A2773042A002342E2 /* SettingsView.swift */; };
 		E67BCD2D277310DE002342E2 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BCD2C277310DE002342E2 /* MenuView.swift */; };
 		E67BCD2F27737AFA002342E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67BCD2E27737AFA002342E2 /* LaunchScreen.storyboard */; };
+		E67BCD312773932B002342E2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BCD302773932B002342E2 /* User.swift */; };
 		E6A4E4B42771A9E5004A13A3 /* ProfileCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4E4B32771A9E5004A13A3 /* ProfileCardView.swift */; };
 		E6A4E4B62771F222004A13A3 /* CourseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4E4B52771F221004A13A3 /* CourseCardView.swift */; };
 		E6D2DD1427700F8C007BA04B /* IE_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2DD1327700F8C007BA04B /* IE_App.swift */; };
@@ -36,6 +37,7 @@
 		E67BCD2A2773042A002342E2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		E67BCD2C277310DE002342E2 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		E67BCD2E27737AFA002342E2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E67BCD302773932B002342E2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E6A4E4B32771A9E5004A13A3 /* ProfileCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardView.swift; sourceTree = "<group>"; };
 		E6A4E4B52771F221004A13A3 /* CourseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCardView.swift; sourceTree = "<group>"; };
 		E6D2DD1027700F8C007BA04B /* IE App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IE App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +134,7 @@
 		E6D2DD2D2770172D007BA04B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E67BCD302773932B002342E2 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				E6E753D92772225600F9667A /* CourseDetailView.swift in Sources */,
 				E6D2DD272770119D007BA04B /* CalendarView.swift in Sources */,
 				E6A4E4B62771F222004A13A3 /* CourseCardView.swift in Sources */,
+				E67BCD312773932B002342E2 /* User.swift in Sources */,
 				E6D2DD29277011AA007BA04B /* AnnouncementsView.swift in Sources */,
 				E6D2DD1627700F8C007BA04B /* MainTabView.swift in Sources */,
 				E6D2DD232770114A007BA04B /* ProfileView.swift in Sources */,
@@ -361,13 +365,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IE App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5R2Q9R33LS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -389,13 +396,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IE App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5R2Q9R33LS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

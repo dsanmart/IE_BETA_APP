@@ -11,9 +11,32 @@ struct MainTabView: View {
     init() {
         UITabBar.appearance().backgroundColor = UIColor.systemGray6
     }
+    @State private var selection: Tab = .CalendarView
+
+    // force-reset property
+    @State private var reset = UUID()
+    
+    enum Tab {
+        case ProfileView
+        case CoursesView
+        case CalendarView
+        case AnnouncementsView
+        case MenuView
+    }
+    
     var body: some View {
         
-        TabView {
+        // Function to preserve state of navigation stack unless selected tab is clicked
+        
+
+        let proxy = Binding(get: {selection}, set: {
+                    if selection == $0 {
+                        reset = UUID()     // << update if same tab clicked !!
+                    }
+                    selection = $0
+                })
+        
+        TabView(selection: proxy) {
             
             ProfileView()
                 .tabItem {
@@ -21,7 +44,7 @@ struct MainTabView: View {
                         Image(systemName: "person.crop.circle")
                         Text("Profile")
                     }
-                }
+                }.tag(Tab.ProfileView)
             
             CoursesView()
                 .tabItem {
@@ -29,7 +52,8 @@ struct MainTabView: View {
                         Image(systemName: "books.vertical")
                         Text("Courses")
                     }
-                }
+                }.tag(Tab.CoursesView)
+                .id(reset)
             
             CalendarView()
                 .tabItem {
@@ -37,7 +61,7 @@ struct MainTabView: View {
                         Image(systemName: "calendar")
                         Text("Calendar")
                     }
-                }
+                }.tag(Tab.CalendarView)
             
             AnnouncementsView()
                 .tabItem {
@@ -45,7 +69,7 @@ struct MainTabView: View {
                         Image(systemName: "bell.badge")
                         Text("Announcements")
                     }
-                }
+                }.tag(Tab.AnnouncementsView)
             
             MenuView()
                 .tabItem {
@@ -53,7 +77,8 @@ struct MainTabView: View {
                         Image(systemName: "list.bullet")
                         Text("More")
                     }
-                }
+                }.tag(Tab.MenuView)
+                .id(reset)
         }
     }
 }
