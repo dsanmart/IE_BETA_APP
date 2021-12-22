@@ -27,8 +27,8 @@
                         {"meeting": "9/15/21", "status": "Absent", "grade": 0}
                     ]},
                     {"announcements": [
-                        {"date": "12/15/21", "time": "10:50 AM", "title": "Final Grades", "content": "Hello everyone, I have sent you a tentative final grade. During today and tomorrow I will send you the remaining grades (final exam, quiz 4 and so on). All the best, Miguel"},
-                        {"date": "12/10/21", "time": "4:11 PM", "title": "Reminder: Problem Set 4 and Quiz 4 due on December 11th at 11:50", "content": "Hello everyone, Just a friendly reminder. The deadline for Problem Set 4 and Quiz 4 is tomorrow at midnight. All the best, Miguel"}
+                        {"date": "12/15/21", "time": "10:50", "title": "Final Grades", "content": "Hello everyone, I have sent you a tentative final grade. During today and tomorrow I will send you the remaining grades (final exam, quiz 4 and so on). All the best, Miguel"},
+                        {"date": "12/10/21", "time": "16:11", "title": "Reminder: Problem Set 4 and Quiz 4 due on December 11th at 11:50", "content": "Hello everyone, Just a friendly reminder. The deadline for Problem Set 4 and Quiz 4 is tomorrow at midnight. All the best, Miguel"}
                     ]},
                     {"gradebook":[
                         {"item": "Final Exam", "date": "10/2/21", "status": "Graded", "grade": "90/100", "feedback":"Congratulations Diego!"},
@@ -41,7 +41,11 @@
                                 {"type": "pdf", "title":"notes_limits.pdf", "content": "notes_limits.pdf"}
                             ]}
                         ]}
-                    ]}
+                    ]},
+                    {"assignments":[
+                        {"item": "Final Exam", "date": "10/2/21", "time": "23:59"},
+                        {"item": "Problem Set 3", "date": "12/15/21", "time": "14:50"}
+                    ]
                 ]},
                 {"Designing and Using Databases": [
                     {"quarter": 2},
@@ -58,8 +62,8 @@
                         {"meeting": "9/15/21", "status": "Absent", "grade": 0}
                     ]},
                     {"announcements": [
-                        {"date": "12/15/21", "time": "10:50 AM", "title": "Final Grades", "content": "Hello everyone, I have sent you a tentative final grade. During today and tomorrow I will send you the remaining grades (final exam, quiz 4 and so on). All the best, Miguel"},
-                        {"date": "12/10/21", "time": "4:11 PM", "title": "Reminder: Problem Set 4 and Quiz 4 due on December 11th at 11:50", "content": "Hello everyone, Just a friendly reminder. The deadline for Problem Set 4 and Quiz 4 is tomorrow at midnight. All the best, Miguel"}
+                        {"date": "12/15/21", "time": "10:50", "title": "Final Grades", "content": "Hello everyone, I have sent you a tentative final grade. During today and tomorrow I will send you the remaining grades (final exam, quiz 4 and so on). All the best, Miguel"},
+                        {"date": "12/10/21", "time": "16:11", "title": "Reminder: Problem Set 4 and Quiz 4 due on December 11th at 11:50", "content": "Hello everyone, Just a friendly reminder. The deadline for Problem Set 4 and Quiz 4 is tomorrow at midnight. All the best, Miguel"}
                     ]},
                     {"gradebook":[
                         {"item": "Final Exam", "date": "10/2/21", "status": "Graded", "grade": "90/100", "feedback":"Congratulations Diego!"},

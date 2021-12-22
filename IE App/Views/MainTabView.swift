@@ -47,7 +47,7 @@ struct MainTabView: View {
                     }
                 }
             
-            MoreView()
+            MenuView()
                 .tabItem {
                     VStack {
                         Image(systemName: "list.bullet")

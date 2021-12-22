@@ -14,10 +14,9 @@ struct CoursesView: View {
     var body: some View {
         NavigationView {
             VStack {
-                
-                // MARK: Dot with title
                 ZStack {
                     GeometryReader { geo in
+                        // MARK: Dot with title
                         Ellipse()
                             .fill(Color.blue)
                             .frame(width: geo.size.width*2, height: geo.size.width*2, alignment: .center)
@@ -77,6 +76,6 @@ struct CoursesView: View {
 struct CoursesView_Previews: PreviewProvider {
     static var previews: some View {
         CoursesView()
-            .previewDevice("iPhone 13 Pro Max")
+            .previewDevice("iPhone 11")
     }
 }
