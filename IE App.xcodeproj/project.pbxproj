@@ -13,6 +13,7 @@
 		E67BCD292772FB0D002342E2 /* ByCourseAnnouncementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BCD282772FB0D002342E2 /* ByCourseAnnouncementsView.swift */; };
 		E67BCD2B2773042A002342E2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BCD2A2773042A002342E2 /* SettingsView.swift */; };
 		E67BCD2D277310DE002342E2 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BCD2C277310DE002342E2 /* MenuView.swift */; };
+		E67BCD2F27737AFA002342E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67BCD2E27737AFA002342E2 /* LaunchScreen.storyboard */; };
 		E6A4E4B42771A9E5004A13A3 /* ProfileCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4E4B32771A9E5004A13A3 /* ProfileCardView.swift */; };
 		E6A4E4B62771F222004A13A3 /* CourseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4E4B52771F221004A13A3 /* CourseCardView.swift */; };
 		E6D2DD1427700F8C007BA04B /* IE_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2DD1327700F8C007BA04B /* IE_App.swift */; };
@@ -34,6 +35,7 @@
 		E67BCD282772FB0D002342E2 /* ByCourseAnnouncementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByCourseAnnouncementsView.swift; sourceTree = "<group>"; };
 		E67BCD2A2773042A002342E2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		E67BCD2C277310DE002342E2 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		E67BCD2E27737AFA002342E2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6A4E4B32771A9E5004A13A3 /* ProfileCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardView.swift; sourceTree = "<group>"; };
 		E6A4E4B52771F221004A13A3 /* CourseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCardView.swift; sourceTree = "<group>"; };
 		E6D2DD1027700F8C007BA04B /* IE App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IE App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +117,7 @@
 				E67BCD242772F306002342E2 /* DueDatesView.swift */,
 				E67BCD262772FAF3002342E2 /* AllAnnouncementsView.swift */,
 				E67BCD282772FB0D002342E2 /* ByCourseAnnouncementsView.swift */,
+				E67BCD2E27737AFA002342E2 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6D2DD30277017AB007BA04B /* users.json in Resources */,
+				E67BCD2F27737AFA002342E2 /* LaunchScreen.storyboard in Resources */,
 				E6D2DD1B27700F90007BA04B /* Preview Assets.xcassets in Resources */,
 				E6D2DD1827700F90007BA04B /* Assets.xcassets in Resources */,
 			);
