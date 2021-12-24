@@ -1,96 +1,94 @@
 [
     {
-        "username": "dsanmart.ieu2020@student.ie.edu",
+        "id": "dsanmart.ieu2020@student.ie.edu",
         "pswd" : "test1",
-        "covidTracerData": [
-            {"status": "green"},
-            {"reason": "Validated Vaccination Certificate"},
-            {"dateAccessed": "31/12/2021"},
-            {"timeAccessed": "23:59"},
-            {"id": "03593420B"}
-        ],
-        "blackboardData" : [
-            {"studentId": "14461", "image": "diegosanmartin", "name":"Diego Sanmartin"},
-            {"courses": [
-                {"Calculus for Computer Science": [
-                    {"quarter": 1},
-                    {"course_image":"calculus_background"},
-                    {"professor": "Miguel Vaquero Vallina"},
-                    {"roster": [
-                        {"student": "Diego Sanmartin", "image":"diego.jpg"},
-                        {"student": "Saad Al Shafir", "image":"saad.jpg"},
-                        {"student": "Boumediene Rayane", "image":"rayane.jpg"}
-                    ]},
-                    {"attendance": [
+        "covidTracerData": {
+            "status": "green",
+            "reason": "Validated Vaccination Certificate",
+            "dateAccessed": "31/12/2021",
+            "timeAccessed": "23:59",
+            "passport": "03593420B"
+        },
+        "blackboardData" :{
+            "studentId": "14461",
+            "image": "diegosanmartin",
+            "name":"Diego Sanmartin",
+            "courses": [
+                {
+                    "id": 1,
+                    "title": "Calculus for Computer Science",
+                    "quarter": 1,
+                    "image":"calculus_background",
+                    "roster": [
+                        {"category": "student", "name": "Diego Sanmartin", "image": "diego"},
+                        {"category": "student", "name": "Saad Al Shafir", "image": "saad"},
+                        {"category": "student", "name": "Boumediene Rayane", "image": "rayane"},
+                        {"category": "professor", "name": "Miguel Vaquero Vallina", "image": "nouserimage"}
+                    ],
+                    "attendance": [
                         {"meeting": "9/6/21", "status": "Present", "grade": 100},
                         {"meeting": "9/13/21", "status": "Late", "grade": 50},
                         {"meeting": "9/15/21", "status": "Absent", "grade": 0}
-                    ]},
-                    {"announcements": [
+                    ],
+                    "announcements": [
                         {"date": "12/15/21", "time": "10:50", "title": "Final Grades", "content": "Hello everyone, I have sent you a tentative final grade. During today and tomorrow I will send you the remaining grades (final exam, quiz 4 and so on). All the best, Miguel"},
                         {"date": "12/10/21", "time": "16:11", "title": "Reminder: Problem Set 4 and Quiz 4 due on December 11th at 11:50", "content": "Hello everyone, Just a friendly reminder. The deadline for Problem Set 4 and Quiz 4 is tomorrow at midnight. All the best, Miguel"}
-                    ]},
-                    {"gradebook":[
-                        {"item": "Final Exam", "date": "10/2/21", "status": "Graded", "grade": "90/100", "feedback":"Congratulations Diego!"},
-                        {"item": "Problem Set 3", "date": "12/15/21", "status": "Graded", "grade": "100/100", "feedback":"Nice work"}
-                    ]},
-                    {"courseContent":[
+                    ],
+                    
+                    "content":[
                         {"type": "pdf", "title":"Syllabus", "description":"Add or read the information about the course, sessions, content...","content":"bcsai-calculus-syllabus.pdf"},
                         {"type": "folder", "title":"Notes", "description":"This folder contains the notes that will be provided throughout the course.", "content": [
                             {"type": "folder", "title":"Module 1: Limits", "description":"This folder contains the material corresponding to Module 1 (Limits).", "content": [
                                 {"type": "pdf", "title":"notes_limits.pdf", "content": "notes_limits.pdf"}
                             ]}
                         ]}
-                    ]},
-                    {"assignments":[
-                        {"item": "Final Exam", "date": "10/2/21", "time": "23:59"},
-                        {"item": "Problem Set 3", "date": "12/15/21", "time": "14:50"}
+                    ],
+                    "assignment":[
+                        {"item": "Final Exam", "date": "10/2/21", "time": "23:59", "status": "Graded", "grade": "90/100", "feedback":"Congratulations Diego!"},
+                        {"item": "Problem Set 3", "date": "12/15/21", "time": "14:50", "status": "Pending"},
+                        {"item": "Problem Set 2", "date": "11/19/21", "time": "14:50", "status": "Graded", "grade": "55/100", "feedback":"You can do better"}
                     ]
-                ]},
-                {"Designing and Using Databases": [
-                    {"quarter": 2},
-                    {"course_image":"databases_background"},
-                    {"professor": "Robert David Polding"},
-                    {"roster": [
-                        {"student": "Diego Sanmartin", "image":"diego.jpg"},
-                        {"student": "Saad Al Shafir", "image":"saad.jpg"},
-                        {"student": "Boumediene Rayane", "image":"rayane.jpg"}
-                    ]},
-                    {"attendance": [
+                },
+                {
+                    "id": 2,
+                    "title": "Designing and Using Databases",
+                    "quarter": 2,
+                    "image":"databases_background",
+                    "roster": [
+                        {"category": "student", "name": "Diego Sanmartin", "image": "diego"},
+                        {"category": "student", "name": "Saad Al Shafir", "image": "saad"},
+                        {"category": "student", "name": "Boumediene Rayane", "image": "rayane"},
+                        {"category": "professor", "name": "Robert David Polding", "image": "nouserimage"}
+                    ],
+                    "attendance": [
                         {"meeting": "9/6/21", "status": "Present", "grade": 100},
                         {"meeting": "9/13/21", "status": "Late", "grade": 50},
                         {"meeting": "9/15/21", "status": "Absent", "grade": 0}
-                    ]},
-                    {"announcements": [
+                    ],
+                    "announcements": [
                         {"date": "12/15/21", "time": "10:50", "title": "Final Grades", "content": "Hello everyone, I have sent you a tentative final grade. During today and tomorrow I will send you the remaining grades (final exam, quiz 4 and so on). All the best, Miguel"},
                         {"date": "12/10/21", "time": "16:11", "title": "Reminder: Problem Set 4 and Quiz 4 due on December 11th at 11:50", "content": "Hello everyone, Just a friendly reminder. The deadline for Problem Set 4 and Quiz 4 is tomorrow at midnight. All the best, Miguel"}
-                    ]},
-                    {"gradebook":[
-                        {"item": "Final Exam", "date": "10/2/21", "status": "Graded", "grade": "90/100", "feedback":"Congratulations Diego!"},
-                        {"item": "Problem Set 3", "date": "12/15/21", "status": "Graded", "grade": "100/100", "feedback":"Nice work"}
-                    ]},
-                    {"courseContent":[
+                    ],
+                    "courseContent":[
                         {"type": "pdf", "title":"Syllabus", "description":"Add or read the information about the course, sessions, content...","content":"bcsai-calculus-syllabus.pdf"},
                         {"type": "folder", "title":"Notes", "description":"This folder contains the notes that will be provided throughout the course.", "content": [
                             {"type": "folder", "title":"Module 1: Limits", "description":"This folder contains the material corresponding to Module 1 (Limits).", "content": [
                                 {"type": "pdf", "title":"notes_limits.pdf", "content": "notes_limits.pdf"}
                             ]}
                         ]}
-                    ]}
-                ]}
-            ]}
-        ],
-        
-        "ieClubsData": [
-            {"mygroups":[
-                {"name":"IE Coding Club","logo":"ie_code_club.jpg"},
-                {"name":"IE Cryptocurrency Club","logo":"ie_crypto_club.jpg"},
-                {"name":"IE Entrepeneurship Club","logo":"ie_entrepeneur_club.jpg"},
-                {"name":"Talent & Careers","logo":"ie_talent_careers.jpg"},
-            ]}
-        ]
-        
+                    ]
+                }
+            ]
+                    
+        },
+        "ieClubsData": {
+            "mygroups":[
+                {"id": 1, "name":"IE Coding Club","logo":"ie_code_club.jpg"},
+                {"id": 2, "name":"IE Cryptocurrency Club","logo":"ie_crypto_club.jpg"},
+                {"id": 3, "name":"IE Entrepeneurship Club","logo":"ie_entrepeneur_club.jpg"},
+                {"id": 4, "name":"Talent & Careers","logo":"ie_talent_careers.jpg"}
+            ]
+            
+        }
     }
-
-
 ]

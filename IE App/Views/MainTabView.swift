@@ -80,6 +80,7 @@ struct MainTabView: View {
                 }.tag(Tab.MenuView)
                 .id(reset)
         }
+        .environmentObject(UserModel()) // Create an instance of the view model as an environment object
     }
 }
 

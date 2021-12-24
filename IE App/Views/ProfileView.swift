@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct ProfileView: View {
+    
+    // Reference the view model
+    @EnvironmentObject var model:UserModel
+    
     var body: some View {
 
         GeometryReader { geo in
