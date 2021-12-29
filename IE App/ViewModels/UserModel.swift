@@ -9,11 +9,11 @@ import Foundation
 
 class UserModel: ObservableObject {
     
-    @Published var user = [User]()
+    @Published var users = [User]()
     
     init() {
         
         // Create an instance of data service and get the data
-        self.user = DataService.getlocaldata()
+        self.users = DataService.getlocaldata()
     }
 }

@@ -60,6 +60,7 @@ class DataService {
                         }
                     }
                 }
+                print("Succesfully parsed JSON")
                 // Return the User
                 return Userdata
                 

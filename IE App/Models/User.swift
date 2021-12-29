@@ -32,14 +32,13 @@ struct BlackboardData: Decodable, Identifiable {
 }
 
 struct Course: Decodable, Identifiable {
-    var id: String = ""
+    var id: Int?
     var title: String = ""
-    var quarter: String = ""
+    var quarter: Int?
     var image: String = ""
     var roster: [Roster] = [Roster]()
     var attendance: [Attendance] = [Attendance]()
-    var announcements: [Announcement] = [Announcement]()
-    // Content structure has to be thought properly in order to support folders or wait to know how blackboard does it
+    var announcements: [Announcement] = [Announcement]() // Content structure has to be thought properly in order to support folders or wait to know how blackboard does it
     var assignment: [Assignment] = [Assignment]()
 }
 
@@ -54,7 +53,7 @@ struct Attendance: Decodable, Identifiable {
     var id:UUID?
     var meeting: String = ""
     var status: String = ""
-    var grade: String = ""
+    var grade: Int
 }
 
 struct Announcement: Decodable, Identifiable {
