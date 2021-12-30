@@ -1,7 +1,7 @@
 [
     {
         "id": "dsanmart.ieu2020@student.ie.edu",
-        "pswd" : "test1",
+        "password" : "test1",
         "covidTracerData": {
             "status": "green",
             "reason": "Validated Vaccination Certificate",
@@ -97,8 +97,8 @@
         }
     },
     {
-        "id": "bmazari.ieu2020@student.ie.edu",
-        "pswd" : "test2",
+        "id": "rayan",
+        "password" : "test2",
         "covidTracerData": {
             "status": "red",
             "reason": "Required Antigen Test",

@@ -9,7 +9,7 @@ import Foundation
 
 struct User: Decodable, Identifiable {
     var id: String = "" // This is the username
-    var pswd: String = ""
+    var password: String = ""
     var covidTracerData: CovidTracer = CovidTracer()
     var blackboardData: BlackboardData = BlackboardData()
 }

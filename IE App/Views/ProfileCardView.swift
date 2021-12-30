@@ -123,7 +123,7 @@ struct ProfileCardView: View {
                     Text("Email address:")
                         .font(.headline)
                         .fontWeight(.bold)
-                        Text(user.id)
+                    Text(user.id)
                         .font(.largeTitle)
                         .minimumScaleFactor(0.01)
                         .lineLimit(1)

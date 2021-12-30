@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct IE_App: App {
+    @StateObject var authentication = Authentication()
     var body: some Scene {
         WindowGroup {
-            MainTabView()
+            if !authentication.isValidated {
+                LoginView()
+                    .environmentObject(authentication)
+            } else {
+                MainTabView()
+                    .environmentObject(authentication)
+            }
         }
     }
 }

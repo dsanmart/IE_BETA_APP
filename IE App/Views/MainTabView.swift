@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct MainTabView: View {
+    
     init() {
         UITabBar.appearance().backgroundColor = UIColor.systemGray6
     }
-    @State private var selection: Tab = .CalendarView
+    @State private var selection: Tab = .ProfileView
 
     // force-reset property
     @State private var reset = UUID()
@@ -27,8 +28,6 @@ struct MainTabView: View {
     var body: some View {
         
         // Function to preserve state of navigation stack unless selected tab is clicked
-        
-
         let proxy = Binding(get: {selection}, set: {
                     if selection == $0 {
                         reset = UUID()     // << update if same tab clicked !!

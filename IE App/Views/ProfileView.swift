@@ -12,11 +12,19 @@ struct ProfileView: View {
     // Reference the view model
     @EnvironmentObject var model:UserModel
     
+    var credentials = Credentials()
+    var getIndex = LoginAPIService()
+    var userIndex: Int {
+        get {
+            return getIndex.index(credentials: credentials)
+        }
+    }
+    
     var body: some View {
 
         GeometryReader { geo in
             VStack(alignment: .center) {
-                ProfileCardView(user: model.users[0])
+                ProfileCardView(user: model.users[userIndex])
                     .frame(width: geo.size.width - 40, height: geo.size.height - 40)
                     .cornerRadius(15)
                     .shadow(color: Color(.sRGB, red: 0, green: 0, blue: 0, opacity: 0.5), radius: 10, x: -5, y: 5)

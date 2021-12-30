@@ -19,6 +19,12 @@
 		E67BCD312773932B002342E2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BCD302773932B002342E2 /* User.swift */; };
 		E6A4E4B42771A9E5004A13A3 /* ProfileCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4E4B32771A9E5004A13A3 /* ProfileCardView.swift */; };
 		E6A4E4B62771F222004A13A3 /* CourseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4E4B52771F221004A13A3 /* CourseCardView.swift */; };
+		E6ABCAA6277D137C00C13464 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ABCAA5277D137C00C13464 /* LoginView.swift */; };
+		E6ABCAA8277D139E00C13464 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ABCAA7277D139E00C13464 /* Authentication.swift */; };
+		E6ABCAAA277D13ED00C13464 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ABCAA9277D13ED00C13464 /* LoginViewModel.swift */; };
+		E6ABCAAC277D145300C13464 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ABCAAB277D145300C13464 /* UIApplication+Extension.swift */; };
+		E6ABCAAE277D151200C13464 /* LoginAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ABCAAD277D151200C13464 /* LoginAPIService.swift */; };
+		E6ABCAB0277D16BC00C13464 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ABCAAF277D16BC00C13464 /* Credentials.swift */; };
 		E6D2DD1427700F8C007BA04B /* IE_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2DD1327700F8C007BA04B /* IE_App.swift */; };
 		E6D2DD1627700F8C007BA04B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2DD1527700F8C007BA04B /* MainTabView.swift */; };
 		E6D2DD1827700F90007BA04B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D2DD1727700F90007BA04B /* Assets.xcassets */; };
@@ -44,6 +50,12 @@
 		E67BCD302773932B002342E2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E6A4E4B32771A9E5004A13A3 /* ProfileCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardView.swift; sourceTree = "<group>"; };
 		E6A4E4B52771F221004A13A3 /* CourseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCardView.swift; sourceTree = "<group>"; };
+		E6ABCAA5277D137C00C13464 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E6ABCAA7277D139E00C13464 /* Authentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		E6ABCAA9277D13ED00C13464 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E6ABCAAB277D145300C13464 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		E6ABCAAD277D151200C13464 /* LoginAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginAPIService.swift; sourceTree = "<group>"; };
+		E6ABCAAF277D16BC00C13464 /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		E6D2DD1027700F8C007BA04B /* IE App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IE App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D2DD1327700F8C007BA04B /* IE_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IE_App.swift; sourceTree = "<group>"; };
 		E6D2DD1527700F8C007BA04B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -71,7 +83,9 @@
 		E67A291F27763B0E00382710 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				E6ABCAAD277D151200C13464 /* LoginAPIService.swift */,
 				E67A292027763BEF00382710 /* JSONDataService.swift */,
+				E6ABCAAB277D145300C13464 /* UIApplication+Extension.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -96,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				E6D2DD1327700F8C007BA04B /* IE_App.swift */,
+				E6ABCAA7277D139E00C13464 /* Authentication.swift */,
 				E6D2DD21277010A1007BA04B /* Views */,
 				E6D2DD2C277016E9007BA04B /* ViewModels */,
 				E6D2DD2D2770172D007BA04B /* Models */,
@@ -118,6 +133,7 @@
 		E6D2DD21277010A1007BA04B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E6ABCAA5277D137C00C13464 /* LoginView.swift */,
 				E6D2DD1527700F8C007BA04B /* MainTabView.swift */,
 				E6D2DD222770114A007BA04B /* ProfileView.swift */,
 				E6D2DD2427701161007BA04B /* CoursesView.swift */,
@@ -140,6 +156,7 @@
 		E6D2DD2C277016E9007BA04B /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				E6ABCAA9277D13ED00C13464 /* LoginViewModel.swift */,
 				E67A2922277648B200382710 /* UserModel.swift */,
 			);
 			path = ViewModels;
@@ -148,6 +165,7 @@
 		E6D2DD2D2770172D007BA04B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E6ABCAAF277D16BC00C13464 /* Credentials.swift */,
 				E67BCD302773932B002342E2 /* User.swift */,
 			);
 			path = Models;
@@ -236,10 +254,12 @@
 				E67BCD2B2773042A002342E2 /* SettingsView.swift in Sources */,
 				E67A292127763BEF00382710 /* JSONDataService.swift in Sources */,
 				E6E753D92772225600F9667A /* CourseDetailView.swift in Sources */,
+				E6ABCAA8277D139E00C13464 /* Authentication.swift in Sources */,
 				E6D2DD272770119D007BA04B /* CalendarView.swift in Sources */,
 				E6A4E4B62771F222004A13A3 /* CourseCardView.swift in Sources */,
 				E67BCD312773932B002342E2 /* User.swift in Sources */,
 				E6D2DD29277011AA007BA04B /* AnnouncementsView.swift in Sources */,
+				E6ABCAAC277D145300C13464 /* UIApplication+Extension.swift in Sources */,
 				E6D2DD1627700F8C007BA04B /* MainTabView.swift in Sources */,
 				E6D2DD232770114A007BA04B /* ProfileView.swift in Sources */,
 				E67BCD252772F306002342E2 /* DueDatesView.swift in Sources */,
@@ -249,8 +269,12 @@
 				E67BCD232772F2D6002342E2 /* ScheduleView.swift in Sources */,
 				E67BCD272772FAF3002342E2 /* AllAnnouncementsView.swift in Sources */,
 				E6D2DD2527701161007BA04B /* CoursesView.swift in Sources */,
+				E6ABCAB0277D16BC00C13464 /* Credentials.swift in Sources */,
+				E6ABCAAE277D151200C13464 /* LoginAPIService.swift in Sources */,
+				E6ABCAA6277D137C00C13464 /* LoginView.swift in Sources */,
 				E67A2923277648B200382710 /* UserModel.swift in Sources */,
 				E67BCD292772FB0D002342E2 /* ByCourseAnnouncementsView.swift in Sources */,
+				E6ABCAAA277D13ED00C13464 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
