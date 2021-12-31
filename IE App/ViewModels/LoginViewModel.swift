@@ -30,8 +30,4 @@ class LoginViewModel: ObservableObject {
             }
         }
     }
-    
-    func getUserIndex() -> Int {
-        return LoginAPIService.shared.index(credentials: credentials)
-    }
 }

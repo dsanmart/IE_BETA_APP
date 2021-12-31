@@ -18,7 +18,7 @@ struct CoursesView: View {
                     GeometryReader { geo in
                         // MARK: Dot with title
                         Ellipse()
-                            .fill(Color.blue)
+                            .fill(SwiftUI.Color("LightBlue"))
                             .frame(width: geo.size.width*2, height: geo.size.width*2, alignment: .center)
                             .ignoresSafeArea()
                             .position(x: geo.size.width/2, y: 80-geo.size.width)

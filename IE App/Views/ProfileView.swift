@@ -16,7 +16,7 @@ struct ProfileView: View {
     var getIndex = LoginAPIService()
     var userIndex: Int {
         get {
-            return getIndex.index(credentials: credentials)
+            return getIndex.index()
         }
     }
     

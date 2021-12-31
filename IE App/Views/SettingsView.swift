@@ -11,6 +11,7 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @EnvironmentObject var authentication: Authentication
     var body: some View {
         NavigationView {
             ZStack {
@@ -111,8 +112,10 @@ struct SettingsView: View {
                                 .padding(.leading, 10.0)
                         }.padding(.vertical, 5)
                     }
-                    NavigationLink(destination: ProfileView()) {
-                        
+                    
+                    Button(action: {
+                        authentication.updateValidation(success: false)
+                    }) {
                         HStack {
                             Image(systemName: "arrowshape.turn.up.backward.fill")
                                 .resizable()

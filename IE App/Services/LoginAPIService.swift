@@ -40,14 +40,10 @@ class LoginAPIService {
         
     }
     
-    func index(credentials: Credentials) -> Int {
-        if self.usernames.contains(credentials.email) {
-            let userIndex = self.usernames.firstIndex(of: credentials.email)
-            if self.passwords[userIndex!] == credentials.password {
+    func index() -> Int {
+        if self.usernames.contains(LocalStorage.user) {
+            let userIndex = self.usernames.firstIndex(of: LocalStorage.user)
                 return userIndex!
-            } else {
-                return 0
-            }
         } else {
             return 0
         }
