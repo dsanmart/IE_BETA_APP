@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct CourseCardView: View {
+    
+    var course:Course
+
     var body: some View {
         
         // Course card view
@@ -17,12 +20,12 @@ struct CourseCardView: View {
             GeometryReader { geo in
             VStack(spacing: 0) {
 
-                Image("calculus_background")
+                Image(course.image)
                     .centerCropped()
                     .frame(height:125)
                     .clipped()
                 
-                Text("Calculus for Computer Science")
+                Text(course.title)
                     .font(.title3)
                     .fontWeight(.semibold)
                     .padding(.top,20)
@@ -32,7 +35,7 @@ struct CourseCardView: View {
                     .minimumScaleFactor(0.75)
                     .lineLimit(1)
 
-                Text("Miguel Vaquero")
+                Text(course.instructor)
                     .font(.headline)
                     .fontWeight(.regular)
                     .padding(.top, 5)
@@ -60,6 +63,8 @@ extension Image {
 
 struct CourseCardView_Previews: PreviewProvider {
     static var previews: some View {
-        CourseCardView()
+        let model = UserModel()
+        let user = model.users[0]
+        CourseCardView(course: user.blackboardData.courses[0])
     }
 }

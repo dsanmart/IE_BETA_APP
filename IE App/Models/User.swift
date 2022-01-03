@@ -36,6 +36,7 @@ struct Course: Decodable, Identifiable {
     var title: String = ""
     var quarter: Int?
     var image: String = ""
+    var instructor:String = ""
     var roster: [Roster] = [Roster]()
     var attendance: [Attendance] = [Attendance]()
     var announcements: [Announcement] = [Announcement]() // Content structure has to be thought properly in order to support folders or wait to know how blackboard does it

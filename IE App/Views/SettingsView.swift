@@ -34,7 +34,7 @@ struct SettingsView: View {
                 }
 
                 List {
-                    NavigationLink(destination: CourseDetailView()) {
+                    NavigationLink(destination: MenuView()) {
                         
                         HStack {
                             Image(systemName: "bubble.left.and.exclamationmark.bubble.right.fill")

@@ -12,7 +12,6 @@ struct ProfileView: View {
     // Reference the view model
     @EnvironmentObject var model:UserModel
     
-    var credentials = Credentials()
     var getIndex = LoginAPIService()
     var userIndex: Int {
         get {
