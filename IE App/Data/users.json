@@ -1,7 +1,7 @@
 [
     {
-        "id": "dsanmart.ieu2020@student.ie.edu",
-        "password" : "test1",
+        "id": "dsanmart",
+        "password" : "t1",
         "covidTracerData": {
             "status": "green",
             "reason": "Validated Vaccination Certificate",

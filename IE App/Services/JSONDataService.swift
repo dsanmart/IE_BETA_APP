@@ -47,16 +47,16 @@ class DataService {
                             i.id = UUID()
                         }
                         // Add unique IDs to attendance meetings
-                        for var i in course.attendance {
-                            i.id = UUID()
+                        for var k in course.attendance {
+                            k.id = UUID()
                         }
                         // Add unique IDs to announcements
-                        for var i in course.announcements {
-                            i.id = UUID()
+                        for var j in course.announcements {
+                            j.id = UUID()
                         }
                         // Add unique IDs to assignments
-                        for var i in course.assignment {
-                            i.id = UUID()
+                        for var l in course.assignment {
+                            l.id = UUID()
                         }
                     }
                 }
