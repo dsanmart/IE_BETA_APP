@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CalendarView: View {
-    @State var selectedView = 1
+    @State var selectedView = 0
     var body: some View {
         ZStack(alignment: .center) {
             GeometryReader { geo in
@@ -38,7 +38,7 @@ struct CalendarView: View {
             }
             
             if selectedView == 0 {
-                ScheduleView()
+                CalendarHome()
                     .padding(.top,160) // Change main ZStack alignment to .top in order to place the view correctly
             } else if selectedView == 1 {
                 DueDatesView()

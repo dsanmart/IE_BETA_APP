@@ -109,9 +109,10 @@ struct CoursesView: View {
                                     }.padding(.top,25)
                                 }
                             }
-                        }
+                        }.padding(.bottom, 30)
                     }.padding(.horizontal)
                         .padding(.top, 150)
+                        
                 }
                 
             }.navigationBarHidden(true)
