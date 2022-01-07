@@ -12,7 +12,7 @@ struct MainTabView: View {
     init() {
         UITabBar.appearance().backgroundColor = UIColor.systemGray6
     }
-    @State private var selection: Tab = .ProfileView
+    @State private var selection: Tab = .CoursesView
 
     // force-reset property
     @State private var reset = UUID()
@@ -45,6 +45,14 @@ struct MainTabView: View {
                     }
                 }.tag(Tab.ProfileView)
             
+            CalendarView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "calendar")
+                        Text("Calendar")
+                    }
+                }.tag(Tab.CalendarView)
+            
             CoursesView()
                 .tabItem {
                     VStack {
@@ -53,14 +61,6 @@ struct MainTabView: View {
                     }
                 }.tag(Tab.CoursesView)
                 .id(reset)
-            
-            CalendarView()
-                .tabItem {
-                    VStack {
-                        Image(systemName: "calendar")
-                        Text("Calendar")
-                    }
-                }.tag(Tab.CalendarView)
             
             AnnouncementsView()
                 .tabItem {

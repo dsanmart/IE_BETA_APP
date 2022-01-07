@@ -12,9 +12,13 @@ struct DetailAnnouncementView: View {
     var announcement: Announcement
     
     var body: some View {
-        VStack {
+        VStack(alignment: .center, spacing: 30) {
             Text(announcement.title)
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .multilineTextAlignment(.center)
             Text(announcement.content)
+            Spacer()
         }.padding()
     }
 }

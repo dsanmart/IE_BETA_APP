@@ -43,19 +43,19 @@ class DataService {
                     for course in user.blackboardData.courses {
                         
                         // Add unique IDs to roster members
-                        for var i in course.roster {
+                        for i in course.roster {
                             i.id = UUID()
                         }
                         // Add unique IDs to attendance meetings
-                        for var k in course.attendance {
+                        for k in course.attendance {
                             k.id = UUID()
                         }
                         // Add unique IDs to announcements
-                        for var j in course.announcements {
+                        for j in course.announcements {
                             j.id = UUID()
                         }
                         // Add unique IDs to assignments
-                        for var l in course.assignment {
+                        for l in course.assignment {
                             l.id = UUID()
                         }
                     }

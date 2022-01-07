@@ -5,7 +5,7 @@
 //  Created by rayane mazari on 28/12/21.
 //
 
-import SwiftUI
+import Foundation
 
 //Date value Model...
 struct CalendarUserModel: Identifiable{

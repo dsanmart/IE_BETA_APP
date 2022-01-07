@@ -20,7 +20,7 @@ struct CalendarHome: View {
             .padding(.vertical)
         }
         //Safe Area View...
-        .safeAreaInset(edge: .bottom){
+       /* .safeAreaInset(edge: .bottom){
             HStack{
                 Button{
                     
@@ -46,7 +46,7 @@ struct CalendarHome: View {
             .padding(.bottom,10)
             .foregroundColor(.white)
             .background(.ultraThinMaterial)
-        }
+        }*/
     }
 }
 

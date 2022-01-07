@@ -43,21 +43,21 @@ struct Course: Decodable, Identifiable {
     var assignment: [Assignment] = [Assignment]()
 }
 
-struct Roster: Decodable, Identifiable {
+class Roster: Decodable, Identifiable {
     var id:UUID?
     var name: String = ""
     var category: String = ""
     var image: String = ""
 }
 
-struct Attendance: Decodable, Identifiable {
+class Attendance: Decodable, Identifiable {
     var id:UUID?
     var meeting: String = ""
     var status: String = ""
     var grade: Int
 }
 
-struct Announcement: Decodable, Identifiable {
+class Announcement: Decodable, Identifiable {
     var id:UUID?
     var date: String = ""
     var time: String = ""
@@ -65,7 +65,7 @@ struct Announcement: Decodable, Identifiable {
     var content: String = ""
 }
 
-struct Assignment: Decodable, Identifiable {
+class Assignment: Decodable, Identifiable {
     var id:UUID?
     var item: String = ""
     var date: String = ""

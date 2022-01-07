@@ -1,6 +1,6 @@
 [
     {
-        "id": "dsanmart",
+        "id": "dsanmart.ieu2020@student.ie.edu",
         "password" : "t1",
         "covidTracerData": {
             "status": "green",
@@ -32,8 +32,10 @@
                         {"meeting": "9/15/21", "status": "Absent", "grade": 0}
                     ],
                     "announcements": [
-                        {"date": "12/15/21", "time": "10:50", "title": "Final Grades", "content": "Hello everyone, I have sent you a tentative final grade. During today and tomorrow I will send you the remaining grades (final exam, quiz 4 and so on). All the best, Miguel"},
-                        {"date": "12/10/21", "time": "16:11", "title": "Reminder: Problem Set 4 and Quiz 4 due on December 11th at 11:50", "content": "Hello everyone, Just a friendly reminder. The deadline for Problem Set 4 and Quiz 4 is tomorrow at midnight. All the best, Miguel"}
+                        {"date": "12/15/21", "time": "10:50", "title": "Tentative Final Grades", "content": "Hello everyone, I have sent you a tentative final grade. During today and tomorrow I will send you the remaining grades (final exam, quiz 4 and so on). All the best, Miguel"},
+                        {"date": "12/10/21", "time": "16:11", "title": "Reminder: Problem Set 4 and Quiz 4 due on December 11th at 11:50", "content": "Hello everyone, Just a friendly reminder. The deadline for Problem Set 4 and Quiz 4 is tomorrow at midnight. All the best, Miguel"},
+                        {"date": "12/15/21", "time": "10:50", "title": "Updated link for office hours", "content": "This one should work https://ieuniversity.zoom.us/j/9671554591 If not, send me an email. Best, MIguel"},
+                        {"date": "12/10/21", "time": "16:11", "title": "Quiz 3 scores and other stuff", "content": "Hello everyone, I have submitted the grades for Quiz 3 and uploaded the solutions. The solutions are the document 'quiz_3_solutions' on Blackboards. I also make available a mock version of the Midterm exam, as some of you wanted to use it to practice. The name of this test is 'Midterm-Mock' and should be the first item on the content section. This is just a test in case you want to practice. You have unlimited attempts and I will not grade it. As usual, let me know if there is any problem. Best, Miguel"}
                     ],
                     
                     "content":[
@@ -68,8 +70,8 @@
                         {"meeting": "9/15/21", "status": "Absent", "grade": 0}
                     ],
                     "announcements": [
-                        {"date": "12/15/21", "time": "10:50", "title": "Final Grades", "content": "Hello everyone, I have sent you a tentative final grade. During today and tomorrow I will send you the remaining grades (final exam, quiz 4 and so on). All the best, Miguel"},
-                        {"date": "12/10/21", "time": "16:11", "title": "Reminder: Problem Set 4 and Quiz 4 due on December 11th at 11:50", "content": "Hello everyone, Just a friendly reminder. The deadline for Problem Set 4 and Quiz 4 is tomorrow at midnight. All the best, Miguel"}
+                        {"date": "11/29/21", "time": "15:50", "title": "Spark Quiz", "content": "Apologies for any confusion, but I did prepare a short multiple-choice quiz for the next session. It will be on Spark, and it will take place before the second set of groups present. This will be only on the theory part (not practical). The quiz will be 15 questions in 15 minutes, and will start at the beginning of the session. The quiz will be worth 5% of the final grade."},
+                        {"date": "12/10/21", "time": "16:11", "title": "Asynchronous Class - Session 18", "content": "The instructions for the asynchronous class are in the Session 18 folder. Put answers in a Word document and upload to the submission. Deadline: 1st November at 23:59"}
                     ],
                     "courseContent":[
                         {"type": "pdf", "title":"Syllabus", "description":"Add or read the information about the course, sessions, content...","content":"bcsai-calculus-syllabus.pdf"},
@@ -103,8 +105,7 @@
                         {"meeting": "9/15/21", "status": "Absent", "grade": 0}
                     ],
                     "announcements": [
-                        {"date": "12/15/21", "time": "10:50", "title": "Final Grades", "content": "Hello everyone, I have sent you a tentative final grade. During today and tomorrow I will send you the remaining grades (final exam, quiz 4 and so on). All the best, Miguel"},
-                        {"date": "12/10/21", "time": "16:11", "title": "Reminder: Problem Set 4 and Quiz 4 due on December 11th at 11:50", "content": "Hello everyone, Just a friendly reminder. The deadline for Problem Set 4 and Quiz 4 is tomorrow at midnight. All the best, Miguel"}
+                        {"date": "12/22/21", "time": "23:50", "title": "FINANCE LAB DROP PERIOD", "content": "Dear students, We are glad that you are interested to become part of the IEU LABs community!! As you know, participating in a Lab requires hard work and commitment. During the extensive period (mandatory live in-person format), you will be working 4 to 6 hours per week from the first week of February until the end of May. The intensive period involves a workload of 4 to 6 hours per day from May 30th until June 24th. BOTH periods are compulsory, and attendance to 70% of sessions is required. (Only those students who have successfully completed the same Lab in previous years and have enrolled in the advanced group are exempt from attending during the intensive period). Kind regards, The IEU LABs Team"}
                     ],
                     "courseContent":[
                         {"type": "pdf", "title":"Syllabus", "description":"Add or read the information about the course, sessions, content...","content":"bcsai-calculus-syllabus.pdf"},
@@ -138,8 +139,7 @@
                         {"meeting": "9/15/21", "status": "Absent", "grade": 0}
                     ],
                     "announcements": [
-                        {"date": "12/15/21", "time": "10:50", "title": "Final Grades", "content": "Hello everyone, I have sent you a tentative final grade. During today and tomorrow I will send you the remaining grades (final exam, quiz 4 and so on). All the best, Miguel"},
-                        {"date": "12/10/21", "time": "16:11", "title": "Reminder: Problem Set 4 and Quiz 4 due on December 11th at 11:50", "content": "Hello everyone, Just a friendly reminder. The deadline for Problem Set 4 and Quiz 4 is tomorrow at midnight. All the best, Miguel"}
+                        {"date": "12/15/21", "time": "10:50", "title": "Session 8 - Asynchronous Class", "content": "Download the 'Future of Cloud Computing' reading. Based on the text, explain how cloud computing will be used in the next few years (350 words)."}
                     ],
                     "courseContent":[
                         {"type": "pdf", "title":"Syllabus", "description":"Add or read the information about the course, sessions, content...","content":"bcsai-calculus-syllabus.pdf"},
@@ -172,10 +172,7 @@
                         {"meeting": "9/13/21", "status": "Late", "grade": 50},
                         {"meeting": "9/15/21", "status": "Absent", "grade": 0}
                     ],
-                    "announcements": [
-                        {"date": "12/15/21", "time": "10:50", "title": "Final Grades", "content": "Hello everyone, I have sent you a tentative final grade. During today and tomorrow I will send you the remaining grades (final exam, quiz 4 and so on). All the best, Miguel"},
-                        {"date": "12/10/21", "time": "16:11", "title": "Reminder: Problem Set 4 and Quiz 4 due on December 11th at 11:50", "content": "Hello everyone, Just a friendly reminder. The deadline for Problem Set 4 and Quiz 4 is tomorrow at midnight. All the best, Miguel"}
-                    ],
+                    "announcements": [],
                     "courseContent":[
                         {"type": "pdf", "title":"Syllabus", "description":"Add or read the information about the course, sessions, content...","content":"bcsai-calculus-syllabus.pdf"},
                         {"type": "folder", "title":"Notes", "description":"This folder contains the notes that will be provided throughout the course.", "content": [
@@ -208,8 +205,8 @@
                         {"meeting": "9/15/21", "status": "Absent", "grade": 0}
                     ],
                     "announcements": [
-                        {"date": "12/15/21", "time": "10:50", "title": "Final Grades", "content": "Hello everyone, I have sent you a tentative final grade. During today and tomorrow I will send you the remaining grades (final exam, quiz 4 and so on). All the best, Miguel"},
-                        {"date": "12/10/21", "time": "16:11", "title": "Reminder: Problem Set 4 and Quiz 4 due on December 11th at 11:50", "content": "Hello everyone, Just a friendly reminder. The deadline for Problem Set 4 and Quiz 4 is tomorrow at midnight. All the best, Miguel"}
+                        {"date": "12/15/21", "time": "10:50", "title": "Reminder: Assignment 3", "content": "Dear all, I hope your week is going well so far. Wanted to reach to remind you about Assignment 3 that was presented and introduced to you in last week's session and that is DUE 05/12 (Sunday evening). Only 2 groups have reached out to me with doubts or questions with regards to the work itself. Here to help! See you tomorrow in class :) Kind regards, Prof. Lucas Mateu"},
+                        {"date": "10/18/21", "time": "10:22", "title": "Q&A link", "content": "Hi guys, as you must have seen on the Doodle, the selected time was: Oct-18th from 8pm-9pm Join Zoom Meeting https://ieuniversity.zoom.us/j/92307435287?pwd=MFNDeVpiWFVHT2s4cUo1TVM3blhHQT09 Meeting ID: 923 0743 5287 Passcode: 43895254"}
                     ],
                     "courseContent":[
                         {"type": "pdf", "title":"Syllabus", "description":"Add or read the information about the course, sessions, content...","content":"bcsai-calculus-syllabus.pdf"},

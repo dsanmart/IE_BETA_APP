@@ -14,7 +14,7 @@ struct CalendarUser: View {
     @State var currentMonth: Int = 0
     
     var body: some View {
-        VStack(spacing: 35){
+        VStack(spacing: 10){
             // Days...
             let days: [String] = ["Sun", "Mon","Tue","Wed","Thu","Fri","Sat"]
             HStack(spacing: 20){
@@ -25,7 +25,8 @@ struct CalendarUser: View {
                         .font(.caption)
                         .fontWeight(.semibold)
                     Text(extraDate()[1])
-                        .font(.title.bold())
+                        .font(.title2)
+                        .fontWeight(.bold)
                     
                 }
                 Spacer(minLength: 0)
@@ -67,7 +68,7 @@ struct CalendarUser: View {
             // dates.....
             // lazy grid...
             let columns = Array(repeating: GridItem(.flexible()), count: 7)
-            LazyVGrid(columns: columns, spacing: 15){
+            LazyVGrid(columns: columns, spacing: 0){
                 ForEach(extractDate()){
                     value in
                     
@@ -90,7 +91,7 @@ struct CalendarUser: View {
                 Text("Tasks")
                     .font(.title2.bold())
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.vertical, 20)
+                    .padding(.vertical, 10)
                 
                 if let task = tasks.first(where: { task in
                     return isSameDay(date1: task.taskDate, date2: currentDate)}){
@@ -102,9 +103,10 @@ struct CalendarUser: View {
                             //For Custom Timing...
                             Text(task.time.addingTimeInterval(CGFloat.random(in: 0...5000)), style:
                                         .time)
+                                .font(.footnote)
                             
                             Text(task.title)
-                                .font(.title2.bold())
+                                .font(.headline)
                         }
                         .padding(.vertical,10)
                         .padding(.horizontal)
@@ -141,14 +143,14 @@ struct CalendarUser: View {
                     task in
                     return isSameDay(date1: task.taskDate, date2: value.date)
                 }){
-                    VStack{
+                    VStack(spacing: 3){
                     Text("\(value.day)")
                         .font(.title3.bold())
                         .foregroundColor(isSameDay(date1: task.taskDate, date2: currentDate) ? .white: .primary)
-                    Spacer()
                     Circle()
                         .fill(isSameDay(date1: task.taskDate, date2: currentDate) ? .white: SwiftUI.Color("LightBlue"))
-                        .frame(width: 8, height:8)
+                        .frame(width: 7, height:7)
+                    
                     }.frame(maxWidth: .infinity)
                     
                 }else{
@@ -163,7 +165,7 @@ struct CalendarUser: View {
             }
         }
         .padding(.vertical,9)
-        .frame(height: 60, alignment: .top)
+        .frame(height: 50, alignment: .top)
     }
     
     //checking datess...
