@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E67A292127763BEF00382710 /* JSONDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67A292027763BEF00382710 /* JSONDataService.swift */; };
 		E67A2923277648B200382710 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67A2922277648B200382710 /* UserModel.swift */; };
-		E67BCD232772F2D6002342E2 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BCD222772F2D6002342E2 /* ScheduleView.swift */; };
 		E67BCD252772F306002342E2 /* DueDatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BCD242772F306002342E2 /* DueDatesView.swift */; };
 		E67BCD272772FAF3002342E2 /* AllAnnouncementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BCD262772FAF3002342E2 /* AllAnnouncementsView.swift */; };
 		E67BCD292772FB0D002342E2 /* ByCourseAnnouncementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BCD282772FB0D002342E2 /* ByCourseAnnouncementsView.swift */; };
@@ -46,7 +45,6 @@
 /* Begin PBXFileReference section */
 		E67A292027763BEF00382710 /* JSONDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDataService.swift; sourceTree = "<group>"; };
 		E67A2922277648B200382710 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		E67BCD222772F2D6002342E2 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		E67BCD242772F306002342E2 /* DueDatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueDatesView.swift; sourceTree = "<group>"; };
 		E67BCD262772FAF3002342E2 /* AllAnnouncementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAnnouncementsView.swift; sourceTree = "<group>"; };
 		E67BCD282772FB0D002342E2 /* ByCourseAnnouncementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByCourseAnnouncementsView.swift; sourceTree = "<group>"; };
@@ -103,13 +101,45 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		E6CADB7D2787C4EF00E0FDCB /* calendar */ = {
+		E6A4180E278B48D600F8DB2E /* Courses */ = {
 			isa = PBXGroup;
 			children = (
-				E6CADB962787CB3F00E0FDCB /* CalendarUser.swift */,
-				E6CADB912787C84F00E0FDCB /* CalendarHome.swift */,
+				E6D2DD2427701161007BA04B /* CoursesView.swift */,
+				E6A4E4B52771F221004A13A3 /* CourseCardView.swift */,
+				E6E753D82772225600F9667A /* CourseDetailView.swift */,
 			);
-			path = calendar;
+			path = Courses;
+			sourceTree = "<group>";
+		};
+		E6A4180F278B492300F8DB2E /* Announcements */ = {
+			isa = PBXGroup;
+			children = (
+				E6D2DD28277011AA007BA04B /* AnnouncementsView.swift */,
+				E67BCD262772FAF3002342E2 /* AllAnnouncementsView.swift */,
+				E67BCD282772FB0D002342E2 /* ByCourseAnnouncementsView.swift */,
+				E6A62CD02783D8B6004B31FD /* DetailAnnouncementView.swift */,
+			);
+			path = Announcements;
+			sourceTree = "<group>";
+		};
+		E6A41810278B496A00F8DB2E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E6D2DD222770114A007BA04B /* ProfileView.swift */,
+				E6A4E4B32771A9E5004A13A3 /* ProfileCardView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E6CADB7D2787C4EF00E0FDCB /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				E6D2DD262770119D007BA04B /* CalendarView.swift */,
+				E67BCD242772F306002342E2 /* DueDatesView.swift */,
+				E6CADB912787C84F00E0FDCB /* CalendarHome.swift */,
+				E6CADB962787CB3F00E0FDCB /* CalendarUser.swift */,
+			);
+			path = Calendar;
 			sourceTree = "<group>";
 		};
 		E6D2DD0727700F8C007BA04B = {
@@ -157,21 +187,12 @@
 			children = (
 				E6ABCAA5277D137C00C13464 /* LoginView.swift */,
 				E6D2DD1527700F8C007BA04B /* MainTabView.swift */,
-				E6D2DD222770114A007BA04B /* ProfileView.swift */,
-				E6D2DD2427701161007BA04B /* CoursesView.swift */,
-				E6D2DD262770119D007BA04B /* CalendarView.swift */,
-				E6CADB7D2787C4EF00E0FDCB /* calendar */,
-				E6D2DD28277011AA007BA04B /* AnnouncementsView.swift */,
+				E6A41810278B496A00F8DB2E /* Profile */,
+				E6A4180E278B48D600F8DB2E /* Courses */,
+				E6CADB7D2787C4EF00E0FDCB /* Calendar */,
+				E6A4180F278B492300F8DB2E /* Announcements */,
 				E67BCD2C277310DE002342E2 /* MenuView.swift */,
 				E67BCD2A2773042A002342E2 /* SettingsView.swift */,
-				E6A4E4B32771A9E5004A13A3 /* ProfileCardView.swift */,
-				E6A4E4B52771F221004A13A3 /* CourseCardView.swift */,
-				E6E753D82772225600F9667A /* CourseDetailView.swift */,
-				E67BCD222772F2D6002342E2 /* ScheduleView.swift */,
-				E67BCD242772F306002342E2 /* DueDatesView.swift */,
-				E67BCD262772FAF3002342E2 /* AllAnnouncementsView.swift */,
-				E67BCD282772FB0D002342E2 /* ByCourseAnnouncementsView.swift */,
-				E6A62CD02783D8B6004B31FD /* DetailAnnouncementView.swift */,
 				E67BCD2E27737AFA002342E2 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
@@ -296,7 +317,6 @@
 				E6CADB952787C8A200E0FDCB /* TaskCalendar.swift in Sources */,
 				E6A4E4B42771A9E5004A13A3 /* ProfileCardView.swift in Sources */,
 				E67BCD2D277310DE002342E2 /* MenuView.swift in Sources */,
-				E67BCD232772F2D6002342E2 /* ScheduleView.swift in Sources */,
 				E6A45ADA277EB12600DED89B /* LocalStorage.swift in Sources */,
 				E67BCD272772FAF3002342E2 /* AllAnnouncementsView.swift in Sources */,
 				E6D2DD2527701161007BA04B /* CoursesView.swift in Sources */,
