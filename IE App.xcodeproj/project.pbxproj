@@ -16,6 +16,16 @@
 		E67BCD2D277310DE002342E2 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BCD2C277310DE002342E2 /* MenuView.swift */; };
 		E67BCD2F27737AFA002342E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67BCD2E27737AFA002342E2 /* LaunchScreen.storyboard */; };
 		E67BCD312773932B002342E2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BCD302773932B002342E2 /* User.swift */; };
+		E6A41812278BB60100F8DB2E /* UndoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A41811278BB60100F8DB2E /* UndoneView.swift */; };
+		E6A41814278BC7E500F8DB2E /* StoreWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A41813278BC7E500F8DB2E /* StoreWebView.swift */; };
+		E6A41816278BC85D00F8DB2E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A41815278BC85D00F8DB2E /* WebView.swift */; };
+		E6A41818278BC9E000F8DB2E /* PerksWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A41817278BC9E000F8DB2E /* PerksWebView.swift */; };
+		E6A4181A278BCA6A00F8DB2E /* CovidWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A41819278BCA6A00F8DB2E /* CovidWebView.swift */; };
+		E6A4181D278BCAAA00F8DB2E /* LibraryWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4181C278BCAAA00F8DB2E /* LibraryWebView.swift */; };
+		E6A4181F278BCAC400F8DB2E /* BookingWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4181E278BCAC400F8DB2E /* BookingWebView.swift */; };
+		E6A41821278BCADC00F8DB2E /* AthleticsWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A41820278BCADC00F8DB2E /* AthleticsWebView.swift */; };
+		E6A41823278BCAEF00F8DB2E /* CareerWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A41822278BCAEF00F8DB2E /* CareerWebView.swift */; };
+		E6A41825278BD2D600F8DB2E /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A41824278BD2D600F8DB2E /* LaunchScreenView.swift */; };
 		E6A45ADA277EB12600DED89B /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A45AD9277EB12600DED89B /* LocalStorage.swift */; };
 		E6A4E4B42771A9E5004A13A3 /* ProfileCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4E4B32771A9E5004A13A3 /* ProfileCardView.swift */; };
 		E6A4E4B62771F222004A13A3 /* CourseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4E4B52771F221004A13A3 /* CourseCardView.swift */; };
@@ -52,6 +62,16 @@
 		E67BCD2C277310DE002342E2 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		E67BCD2E27737AFA002342E2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E67BCD302773932B002342E2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E6A41811278BB60100F8DB2E /* UndoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoneView.swift; sourceTree = "<group>"; };
+		E6A41813278BC7E500F8DB2E /* StoreWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreWebView.swift; sourceTree = "<group>"; };
+		E6A41815278BC85D00F8DB2E /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E6A41817278BC9E000F8DB2E /* PerksWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerksWebView.swift; sourceTree = "<group>"; };
+		E6A41819278BCA6A00F8DB2E /* CovidWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidWebView.swift; sourceTree = "<group>"; };
+		E6A4181C278BCAAA00F8DB2E /* LibraryWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryWebView.swift; sourceTree = "<group>"; };
+		E6A4181E278BCAC400F8DB2E /* BookingWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingWebView.swift; sourceTree = "<group>"; };
+		E6A41820278BCADC00F8DB2E /* AthleticsWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleticsWebView.swift; sourceTree = "<group>"; };
+		E6A41822278BCAEF00F8DB2E /* CareerWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerWebView.swift; sourceTree = "<group>"; };
+		E6A41824278BD2D600F8DB2E /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		E6A45AD9277EB12600DED89B /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
 		E6A4E4B32771A9E5004A13A3 /* ProfileCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardView.swift; sourceTree = "<group>"; };
 		E6A4E4B52771F221004A13A3 /* CourseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCardView.swift; sourceTree = "<group>"; };
@@ -97,6 +117,7 @@
 				E6ABCAAD277D151200C13464 /* LoginAPIService.swift */,
 				E67A292027763BEF00382710 /* JSONDataService.swift */,
 				E6ABCAAB277D145300C13464 /* UIApplication+Extension.swift */,
+				E6A41815278BC85D00F8DB2E /* WebView.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -129,6 +150,20 @@
 				E6A4E4B32771A9E5004A13A3 /* ProfileCardView.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		E6A4181B278BCA9200F8DB2E /* WebViews */ = {
+			isa = PBXGroup;
+			children = (
+				E6A41813278BC7E500F8DB2E /* StoreWebView.swift */,
+				E6A41817278BC9E000F8DB2E /* PerksWebView.swift */,
+				E6A41819278BCA6A00F8DB2E /* CovidWebView.swift */,
+				E6A4181C278BCAAA00F8DB2E /* LibraryWebView.swift */,
+				E6A4181E278BCAC400F8DB2E /* BookingWebView.swift */,
+				E6A41820278BCADC00F8DB2E /* AthleticsWebView.swift */,
+				E6A41822278BCAEF00F8DB2E /* CareerWebView.swift */,
+			);
+			path = WebViews;
 			sourceTree = "<group>";
 		};
 		E6CADB7D2787C4EF00E0FDCB /* Calendar */ = {
@@ -193,6 +228,9 @@
 				E6A4180F278B492300F8DB2E /* Announcements */,
 				E67BCD2C277310DE002342E2 /* MenuView.swift */,
 				E67BCD2A2773042A002342E2 /* SettingsView.swift */,
+				E6A4181B278BCA9200F8DB2E /* WebViews */,
+				E6A41811278BB60100F8DB2E /* UndoneView.swift */,
+				E6A41824278BD2D600F8DB2E /* LaunchScreenView.swift */,
 				E67BCD2E27737AFA002342E2 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
@@ -299,9 +337,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E67BCD2B2773042A002342E2 /* SettingsView.swift in Sources */,
+				E6A41816278BC85D00F8DB2E /* WebView.swift in Sources */,
 				E67A292127763BEF00382710 /* JSONDataService.swift in Sources */,
 				E6E753D92772225600F9667A /* CourseDetailView.swift in Sources */,
 				E6ABCAA8277D139E00C13464 /* Authentication.swift in Sources */,
+				E6A4181F278BCAC400F8DB2E /* BookingWebView.swift in Sources */,
 				E6D2DD272770119D007BA04B /* CalendarView.swift in Sources */,
 				E6A4E4B62771F222004A13A3 /* CourseCardView.swift in Sources */,
 				E67BCD312773932B002342E2 /* User.swift in Sources */,
@@ -310,23 +350,31 @@
 				E6CADB7C2787C4C800E0FDCB /* CalendarUserModel.swift in Sources */,
 				E6D2DD1627700F8C007BA04B /* MainTabView.swift in Sources */,
 				E6D2DD232770114A007BA04B /* ProfileView.swift in Sources */,
+				E6A41825278BD2D600F8DB2E /* LaunchScreenView.swift in Sources */,
+				E6A41814278BC7E500F8DB2E /* StoreWebView.swift in Sources */,
 				E6CADB932787C84F00E0FDCB /* CalendarHome.swift in Sources */,
 				E67BCD252772F306002342E2 /* DueDatesView.swift in Sources */,
+				E6A41818278BC9E000F8DB2E /* PerksWebView.swift in Sources */,
 				E6A62CD12783D8B6004B31FD /* DetailAnnouncementView.swift in Sources */,
 				E6D2DD1427700F8C007BA04B /* IE_App.swift in Sources */,
 				E6CADB952787C8A200E0FDCB /* TaskCalendar.swift in Sources */,
 				E6A4E4B42771A9E5004A13A3 /* ProfileCardView.swift in Sources */,
 				E67BCD2D277310DE002342E2 /* MenuView.swift in Sources */,
 				E6A45ADA277EB12600DED89B /* LocalStorage.swift in Sources */,
+				E6A41821278BCADC00F8DB2E /* AthleticsWebView.swift in Sources */,
 				E67BCD272772FAF3002342E2 /* AllAnnouncementsView.swift in Sources */,
 				E6D2DD2527701161007BA04B /* CoursesView.swift in Sources */,
 				E6ABCAB0277D16BC00C13464 /* Credentials.swift in Sources */,
+				E6A4181D278BCAAA00F8DB2E /* LibraryWebView.swift in Sources */,
 				E6ABCAAE277D151200C13464 /* LoginAPIService.swift in Sources */,
 				E6CADB972787CB3F00E0FDCB /* CalendarUser.swift in Sources */,
 				E6ABCAA6277D137C00C13464 /* LoginView.swift in Sources */,
 				E67A2923277648B200382710 /* UserModel.swift in Sources */,
+				E6A41823278BCAEF00F8DB2E /* CareerWebView.swift in Sources */,
 				E67BCD292772FB0D002342E2 /* ByCourseAnnouncementsView.swift in Sources */,
+				E6A4181A278BCA6A00F8DB2E /* CovidWebView.swift in Sources */,
 				E6ABCAAA277D13ED00C13464 /* LoginViewModel.swift in Sources */,
+				E6A41812278BB60100F8DB2E /* UndoneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

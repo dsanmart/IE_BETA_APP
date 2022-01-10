@@ -13,6 +13,9 @@ struct LoginView: View {
     @State var rememberMe = false
     
     var body: some View {
+        if loginVM.showProgressView {
+            LaunchScreenView()
+        } else {
         ZStack {
             GeometryReader { geo in
                 // MARK: Dot with title
@@ -54,9 +57,7 @@ struct LoginView: View {
                 .background(.white)
                 
                 
-                if loginVM.showProgressView {
-                    ProgressView()
-                }
+                
                 
                 Button("LOG IN") {
                     LocalStorage.user = loginVM.credentials.email
@@ -96,6 +97,7 @@ struct LoginView: View {
                 Alert(title: Text("Invalid Login"), message: Text(error.localizedDescription))
             }
         }.background(SwiftUI.Color("DarkBlue"))
+        }
     }
 }
 

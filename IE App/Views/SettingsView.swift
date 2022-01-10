@@ -34,7 +34,7 @@ struct SettingsView: View {
                 }
 
                 List {
-                    NavigationLink(destination: MenuView()) {
+                    NavigationLink(destination: UndoneView()) {
                         
                         HStack {
                             Image(systemName: "bubble.left.and.exclamationmark.bubble.right.fill")
@@ -48,7 +48,7 @@ struct SettingsView: View {
                                 .padding(.leading, 10.0)
                         }.padding(.vertical, 5)
                     }
-                    NavigationLink(destination: MenuView()) {
+                    NavigationLink(destination: UndoneView()) {
                         
                         HStack {
                             Image(systemName: "checkmark.shield.fill")
@@ -61,7 +61,7 @@ struct SettingsView: View {
                                 .padding(.leading, 10.0)
                         }.padding(.vertical, 5)
                     }
-                    NavigationLink(destination: MenuView()) {
+                    NavigationLink(destination: UndoneView()) {
                         
                         HStack {
                             Image(systemName: "faceid")
@@ -74,7 +74,7 @@ struct SettingsView: View {
                                 .padding(.leading, 10.0)
                         }.padding(.vertical, 5)
                     }
-                    NavigationLink(destination: MenuView()) {
+                    NavigationLink(destination: UndoneView()) {
                         
                         HStack {
                             Image(systemName: "link")
@@ -87,7 +87,7 @@ struct SettingsView: View {
                                 .padding(.leading, 10.0)
                         }.padding(.vertical, 5)
                     }
-                    NavigationLink(destination: MenuView()) {
+                    NavigationLink(destination: UndoneView()) {
                         
                         HStack {
                             Image(systemName: "bell.badge.fill")
@@ -100,7 +100,7 @@ struct SettingsView: View {
                                 .padding(.leading, 10.0)
                         }.padding(.vertical, 5)
                     }
-                    NavigationLink(destination: MenuView()) {
+                    NavigationLink(destination: UndoneView()) {
                         
                         HStack {
                             Image(systemName: "square.dashed")

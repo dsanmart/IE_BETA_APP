@@ -28,7 +28,8 @@ struct CoursesView: View {
                     GeometryReader { geo in
                         // MARK: Dot with title
                         Ellipse()
-                            .fill(SwiftUI.Color("LightBlue"))
+                            .fill(Color.blue)
+                        //.fill(SwiftUI.Color("LightBlue"))
                             .frame(width: geo.size.width*2, height: geo.size.width*2, alignment: .center)
                             .ignoresSafeArea()
                             .position(x: geo.size.width/2, y: 80-geo.size.width)
@@ -95,7 +96,6 @@ struct CoursesView: View {
                                 } else if selectedQuarter == 3 {
                                     NavigationLink(destination: CourseDetailView(course: course)) {
                                         GeometryReader { geo in
-                                            
                                             HStack {
                                                 Spacer()
                                                 CourseCardView(course: course)

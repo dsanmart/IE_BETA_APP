@@ -36,13 +36,12 @@ struct CourseCardView: View {
                     .lineLimit(1)
 
                 Text(course.instructor)
-                    .font(.headline)
+                    .font(.callout)
                     .fontWeight(.regular)
                     .padding(.top, 5)
                     .padding(.bottom, 10)
                     .foregroundColor(Color.gray)
                     .textCase(.uppercase)
-            
                 }
             }
         }

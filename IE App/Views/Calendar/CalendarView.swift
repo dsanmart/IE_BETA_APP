@@ -41,7 +41,7 @@ struct CalendarView: View {
                 CalendarHome()
                     .padding(.top,140) // Change main ZStack alignment to .top in order to place the view correctly
             } else if selectedView == 1 {
-                DueDatesView()
+                UndoneView()
                     .padding(.top,160)
             }
         }

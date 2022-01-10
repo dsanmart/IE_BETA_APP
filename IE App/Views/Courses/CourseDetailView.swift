@@ -13,7 +13,26 @@ struct CourseDetailView: View {
     
     var body: some View {
         VStack {
+            Spacer()
             Text(course.title)
+                .font(.title)
+                .fontWeight(.bold)
+                .multilineTextAlignment(.center)
+            Spacer()
+            HStack {
+                Image(systemName: "exclamationmark.triangle.fill")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 50)
+                .padding()
+                Image(systemName: "hammer.fill")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 50)
+                .padding()
+            }
+            Text("Page is under construction")
+            Spacer()
         }
     }
 }
