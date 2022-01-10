@@ -36,10 +36,10 @@
 		E6ABCAAC277D145300C13464 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ABCAAB277D145300C13464 /* UIApplication+Extension.swift */; };
 		E6ABCAAE277D151200C13464 /* LoginAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ABCAAD277D151200C13464 /* LoginAPIService.swift */; };
 		E6ABCAB0277D16BC00C13464 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ABCAAF277D16BC00C13464 /* Credentials.swift */; };
+		E6C3F9E7278BDE060048FB1A /* CalendarUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C3F9E6278BDE060048FB1A /* CalendarUsers.swift */; };
 		E6CADB7C2787C4C800E0FDCB /* CalendarUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CADB7B2787C4C800E0FDCB /* CalendarUserModel.swift */; };
 		E6CADB932787C84F00E0FDCB /* CalendarHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CADB912787C84F00E0FDCB /* CalendarHome.swift */; };
 		E6CADB952787C8A200E0FDCB /* TaskCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CADB942787C8A200E0FDCB /* TaskCalendar.swift */; };
-		E6CADB972787CB3F00E0FDCB /* CalendarUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CADB962787CB3F00E0FDCB /* CalendarUser.swift */; };
 		E6D2DD1427700F8C007BA04B /* IE_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2DD1327700F8C007BA04B /* IE_App.swift */; };
 		E6D2DD1627700F8C007BA04B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2DD1527700F8C007BA04B /* MainTabView.swift */; };
 		E6D2DD1827700F90007BA04B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D2DD1727700F90007BA04B /* Assets.xcassets */; };
@@ -82,10 +82,10 @@
 		E6ABCAAB277D145300C13464 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		E6ABCAAD277D151200C13464 /* LoginAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginAPIService.swift; sourceTree = "<group>"; };
 		E6ABCAAF277D16BC00C13464 /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		E6C3F9E6278BDE060048FB1A /* CalendarUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUsers.swift; sourceTree = "<group>"; };
 		E6CADB7B2787C4C800E0FDCB /* CalendarUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarUserModel.swift; sourceTree = "<group>"; };
 		E6CADB912787C84F00E0FDCB /* CalendarHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHome.swift; sourceTree = "<group>"; };
 		E6CADB942787C8A200E0FDCB /* TaskCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCalendar.swift; sourceTree = "<group>"; };
-		E6CADB962787CB3F00E0FDCB /* CalendarUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarUser.swift; sourceTree = "<group>"; };
 		E6D2DD1027700F8C007BA04B /* IE App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IE App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D2DD1327700F8C007BA04B /* IE_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IE_App.swift; sourceTree = "<group>"; };
 		E6D2DD1527700F8C007BA04B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -172,7 +172,7 @@
 				E6D2DD262770119D007BA04B /* CalendarView.swift */,
 				E67BCD242772F306002342E2 /* DueDatesView.swift */,
 				E6CADB912787C84F00E0FDCB /* CalendarHome.swift */,
-				E6CADB962787CB3F00E0FDCB /* CalendarUser.swift */,
+				E6C3F9E6278BDE060048FB1A /* CalendarUsers.swift */,
 			);
 			path = Calendar;
 			sourceTree = "<group>";
@@ -367,8 +367,8 @@
 				E6ABCAB0277D16BC00C13464 /* Credentials.swift in Sources */,
 				E6A4181D278BCAAA00F8DB2E /* LibraryWebView.swift in Sources */,
 				E6ABCAAE277D151200C13464 /* LoginAPIService.swift in Sources */,
-				E6CADB972787CB3F00E0FDCB /* CalendarUser.swift in Sources */,
 				E6ABCAA6277D137C00C13464 /* LoginView.swift in Sources */,
+				E6C3F9E7278BDE060048FB1A /* CalendarUsers.swift in Sources */,
 				E67A2923277648B200382710 /* UserModel.swift in Sources */,
 				E6A41823278BCAEF00F8DB2E /* CareerWebView.swift in Sources */,
 				E67BCD292772FB0D002342E2 /* ByCourseAnnouncementsView.swift in Sources */,

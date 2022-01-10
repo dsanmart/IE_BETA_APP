@@ -112,7 +112,7 @@ struct CalendarUser: View {
                         .padding(.horizontal)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .background(
-                            SwiftUI.Color("LightBlue")
+                            Color.blue
                                 .opacity(0.5)
                                 .cornerRadius(10)
                         )
