@@ -1,7 +1,7 @@
 [
     {
         "id": "dsanmart.ieu2020@student.ie.edu",
-        "password" : "t1",
+        "password" : "dsanmart",
         "covidTracerData": {
             "status": "green",
             "reason": "Validated Vaccination Certificate",
@@ -13,6 +13,243 @@
             "studentId": "14461",
             "image": "14461",
             "name":"Diego Sanmartin",
+            "courses": [
+                {
+                    "id": 1,
+                    "title": "Calculus for Computer Science",
+                    "quarter": 1,
+                    "image":"calculus_background",
+                    "instructor":"Miguel Vaquero Vallina",
+                    "roster": [
+                        {"category": "student", "name": "Diego Sanmartin", "image": "diego"},
+                        {"category": "student", "name": "Saad Al Shafir", "image": "saad"},
+                        {"category": "student", "name": "Boumediene Rayane", "image": "rayane"},
+                        {"category": "professor", "name": "Miguel Vaquero Vallina", "image": "nouserimage"}
+                    ],
+                    "attendance": [
+                        {"meeting": "9/6/21", "status": "Present", "grade": 100},
+                        {"meeting": "9/13/21", "status": "Late", "grade": 50},
+                        {"meeting": "9/15/21", "status": "Absent", "grade": 0}
+                    ],
+                    "announcements": [
+                        {"date": "12/15/21", "time": "10:50", "title": "Tentative Final Grades", "content": "Hello everyone, I have sent you a tentative final grade. During today and tomorrow I will send you the remaining grades (final exam, quiz 4 and so on). All the best, Miguel"},
+                        {"date": "12/10/21", "time": "16:11", "title": "Reminder: Problem Set 4 and Quiz 4 due on December 11th at 11:50", "content": "Hello everyone, Just a friendly reminder. The deadline for Problem Set 4 and Quiz 4 is tomorrow at midnight. All the best, Miguel"},
+                        {"date": "12/15/21", "time": "10:50", "title": "Updated link for office hours", "content": "This one should work https://ieuniversity.zoom.us/j/9671554591 If not, send me an email. Best, MIguel"},
+                        {"date": "12/10/21", "time": "16:11", "title": "Quiz 3 scores and other stuff", "content": "Hello everyone, I have submitted the grades for Quiz 3 and uploaded the solutions. The solutions are the document 'quiz_3_solutions' on Blackboards. I also make available a mock version of the Midterm exam, as some of you wanted to use it to practice. The name of this test is 'Midterm-Mock' and should be the first item on the content section. This is just a test in case you want to practice. You have unlimited attempts and I will not grade it. As usual, let me know if there is any problem. Best, Miguel"}
+                    ],
+                    
+                    "content":[
+                        {"type": "pdf", "title":"Syllabus", "description":"Add or read the information about the course, sessions, content...","content":"bcsai-calculus-syllabus.pdf"},
+                        {"type": "folder", "title":"Notes", "description":"This folder contains the notes that will be provided throughout the course.", "content": [
+                            {"type": "folder", "title":"Module 1: Limits", "description":"This folder contains the material corresponding to Module 1 (Limits).", "content": [
+                                {"type": "pdf", "title":"notes_limits.pdf", "content": "notes_limits.pdf"}
+                            ]}
+                        ]}
+                    ],
+                    "assignment":[
+                        {"item": "Final Exam", "date": "10/2/21", "time": "23:59", "status": "Graded", "grade": "90/100", "feedback":"Congratulations Diego!"},
+                        {"item": "Problem Set 3", "date": "12/15/21", "time": "14:50", "status": "Pending", "grade": "", "feedback":""},
+                        {"item": "Problem Set 2", "date": "11/19/21", "time": "14:50", "status": "Graded", "grade": "55/100", "feedback":"You can do better"}
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Designing and Using Databases",
+                    "quarter": 1,
+                    "image":"databases_background",
+                    "instructor":"Robert David Polding",
+                    "roster": [
+                        {"category": "student", "name": "Diego Sanmartin", "image": "diego"},
+                        {"category": "student", "name": "Saad Al Shafir", "image": "saad"},
+                        {"category": "student", "name": "Boumediene Rayane", "image": "rayane"},
+                        {"category": "professor", "name": "Robert David Polding", "image": "nouserimage"}
+                    ],
+                    "attendance": [
+                        {"meeting": "9/6/21", "status": "Present", "grade": 100},
+                        {"meeting": "9/13/21", "status": "Late", "grade": 50},
+                        {"meeting": "9/15/21", "status": "Absent", "grade": 0}
+                    ],
+                    "announcements": [
+                        {"date": "11/29/21", "time": "15:50", "title": "Spark Quiz", "content": "Apologies for any confusion, but I did prepare a short multiple-choice quiz for the next session. It will be on Spark, and it will take place before the second set of groups present. This will be only on the theory part (not practical). The quiz will be 15 questions in 15 minutes, and will start at the beginning of the session. The quiz will be worth 5% of the final grade."},
+                        {"date": "12/10/21", "time": "16:11", "title": "Asynchronous Class - Session 18", "content": "The instructions for the asynchronous class are in the Session 18 folder. Put answers in a Word document and upload to the submission. Deadline: 1st November at 23:59"}
+                    ],
+                    "courseContent":[
+                        {"type": "pdf", "title":"Syllabus", "description":"Add or read the information about the course, sessions, content...","content":"bcsai-calculus-syllabus.pdf"},
+                        {"type": "folder", "title":"Notes", "description":"This folder contains the notes that will be provided throughout the course.", "content": [
+                            {"type": "folder", "title":"Module 1: Limits", "description":"This folder contains the material corresponding to Module 1 (Limits).", "content": [
+                                {"type": "pdf", "title":"notes_limits.pdf", "content": "notes_limits.pdf"}
+                            ]}
+                        ]}
+                    ],
+                    "assignment":[
+                        {"item": "Final Exam", "date": "10/2/21", "time": "23:59", "status": "Graded", "grade": "90/100", "feedback":"Congratulations Diego!"},
+                        {"item": "Problem Set 3", "date": "12/15/21", "time": "14:50", "status": "Pending", "grade": "-", "feedback":"-"},
+                        {"item": "Problem Set 2", "date": "11/19/21", "time": "14:50", "status": "Graded", "grade": "55/100", "feedback":"You can do better"}
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Finance Lab",
+                    "quarter": 2,
+                    "image":"finance_background",
+                    "instructor":"Paolo Giancane",
+                    "roster": [
+                        {"category": "student", "name": "Diego Sanmartin", "image": "diego"},
+                        {"category": "student", "name": "Saad Al Shafir", "image": "saad"},
+                        {"category": "student", "name": "Boumediene Rayane", "image": "rayane"},
+                        {"category": "professor", "name": "Paolo Giancane", "image": "nouserimage"}
+                    ],
+                    "attendance": [
+                        {"meeting": "9/6/21", "status": "Present", "grade": 100},
+                        {"meeting": "9/13/21", "status": "Late", "grade": 50},
+                        {"meeting": "9/15/21", "status": "Absent", "grade": 0}
+                    ],
+                    "announcements": [
+                        {"date": "12/22/21", "time": "23:50", "title": "FINANCE LAB DROP PERIOD", "content": "Dear students, We are glad that you are interested to become part of the IEU LABs community!! As you know, participating in a Lab requires hard work and commitment. During the extensive period (mandatory live in-person format), you will be working 4 to 6 hours per week from the first week of February until the end of May. The intensive period involves a workload of 4 to 6 hours per day from May 30th until June 24th. BOTH periods are compulsory, and attendance to 70% of sessions is required. (Only those students who have successfully completed the same Lab in previous years and have enrolled in the advanced group are exempt from attending during the intensive period). Kind regards, The IEU LABs Team"}
+                    ],
+                    "courseContent":[
+                        {"type": "pdf", "title":"Syllabus", "description":"Add or read the information about the course, sessions, content...","content":"bcsai-calculus-syllabus.pdf"},
+                        {"type": "folder", "title":"Notes", "description":"This folder contains the notes that will be provided throughout the course.", "content": [
+                            {"type": "folder", "title":"Module 1: Limits", "description":"This folder contains the material corresponding to Module 1 (Limits).", "content": [
+                                {"type": "pdf", "title":"notes_limits.pdf", "content": "notes_limits.pdf"}
+                            ]}
+                        ]}
+                    ],
+                    "assignment":[
+                        {"item": "Final Exam", "date": "10/2/21", "time": "23:59", "status": "Graded", "grade": "90/100", "feedback":"Congratulations Diego!"},
+                        {"item": "Problem Set 3", "date": "12/15/21", "time": "14:50", "status": "Pending", "grade": "-", "feedback":"-"},
+                        {"item": "Problem Set 2", "date": "11/19/21", "time": "14:50", "status": "Graded", "grade": "55/100", "feedback":"You can do better"}
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title": "Cloud Computing",
+                    "quarter": 1,
+                    "image":"cloud_computing_background",
+                    "instructor":"Multiple Instructors",
+                    "roster": [
+                        {"category": "student", "name": "Diego Sanmartin", "image": "diego"},
+                        {"category": "student", "name": "Saad Al Shafir", "image": "saad"},
+                        {"category": "student", "name": "Boumediene Rayane", "image": "rayane"},
+                        {"category": "professor", "name": "Robert David Polding", "image": "nouserimage"}
+                    ],
+                    "attendance": [
+                        {"meeting": "9/6/21", "status": "Present", "grade": 100},
+                        {"meeting": "9/13/21", "status": "Late", "grade": 50},
+                        {"meeting": "9/15/21", "status": "Absent", "grade": 0}
+                    ],
+                    "announcements": [
+                        {"date": "12/15/21", "time": "10:50", "title": "Session 8 - Asynchronous Class", "content": "Download the 'Future of Cloud Computing' reading. Based on the text, explain how cloud computing will be used in the next few years (350 words)."}
+                    ],
+                    "courseContent":[
+                        {"type": "pdf", "title":"Syllabus", "description":"Add or read the information about the course, sessions, content...","content":"bcsai-calculus-syllabus.pdf"},
+                        {"type": "folder", "title":"Notes", "description":"This folder contains the notes that will be provided throughout the course.", "content": [
+                            {"type": "folder", "title":"Module 1: Limits", "description":"This folder contains the material corresponding to Module 1 (Limits).", "content": [
+                                {"type": "pdf", "title":"notes_limits.pdf", "content": "notes_limits.pdf"}
+                            ]}
+                        ]}
+                    ],
+                    "assignment":[
+                        {"item": "Final Exam", "date": "10/2/21", "time": "23:59", "status": "Graded", "grade": "90/100", "feedback":"Congratulations Diego!"},
+                        {"item": "Problem Set 3", "date": "12/15/21", "time": "14:50", "status": "Pending", "grade": "-", "feedback":"-"},
+                        {"item": "Problem Set 2", "date": "11/19/21", "time": "14:50", "status": "Graded", "grade": "55/100", "feedback":"You can do better"}
+                    ]
+                },
+                {
+                    "id": 5,
+                    "title": "Sophomore Career Development Training",
+                    "quarter": 2,
+                    "image":"career_development_background",
+                    "instructor":"Miriam Esquivel Moreno",
+                    "roster": [
+                        {"category": "student", "name": "Diego Sanmartin", "image": "diego"},
+                        {"category": "student", "name": "Saad Al Shafir", "image": "saad"},
+                        {"category": "student", "name": "Boumediene Rayane", "image": "rayane"},
+                        {"category": "professor", "name": "Miriam Esquivel Moreno", "image": "nouserimage"}
+                    ],
+                    "attendance": [
+                        {"meeting": "9/6/21", "status": "Present", "grade": 100},
+                        {"meeting": "9/13/21", "status": "Late", "grade": 50},
+                        {"meeting": "9/15/21", "status": "Absent", "grade": 0}
+                    ],
+                    "announcements": [],
+                    "courseContent":[
+                        {"type": "pdf", "title":"Syllabus", "description":"Add or read the information about the course, sessions, content...","content":"bcsai-calculus-syllabus.pdf"},
+                        {"type": "folder", "title":"Notes", "description":"This folder contains the notes that will be provided throughout the course.", "content": [
+                            {"type": "folder", "title":"Module 1: Limits", "description":"This folder contains the material corresponding to Module 1 (Limits).", "content": [
+                                {"type": "pdf", "title":"notes_limits.pdf", "content": "notes_limits.pdf"}
+                            ]}
+                        ]}
+                    ],
+                    "assignment":[
+                        {"item": "Final Exam", "date": "10/2/21", "time": "23:59", "status": "Graded", "grade": "90/100", "feedback":"Congratulations Diego!"},
+                        {"item": "Problem Set 3", "date": "12/15/21", "time": "14:50", "status": "Pending", "grade": "-", "feedback":"-"},
+                        {"item": "Problem Set 2", "date": "11/19/21", "time": "14:50", "status": "Graded", "grade": "55/100", "feedback":"You can do better"}
+                    ]
+                },
+                {
+                    "id": 6,
+                    "title": "Technology",
+                    "quarter": 1,
+                    "image":"technology_background",
+                    "instructor":"Lucas Mateu",
+                    "roster": [
+                        {"category": "student", "name": "Diego Sanmartin", "image": "diego"},
+                        {"category": "student", "name": "Saad Al Shafir", "image": "saad"},
+                        {"category": "student", "name": "Boumediene Rayane", "image": "rayane"},
+                        {"category": "professor", "name": "Lucas Mateu", "image": "nouserimage"}
+                    ],
+                    "attendance": [
+                        {"meeting": "9/6/21", "status": "Present", "grade": 100},
+                        {"meeting": "9/13/21", "status": "Late", "grade": 50},
+                        {"meeting": "9/15/21", "status": "Absent", "grade": 0}
+                    ],
+                    "announcements": [
+                        {"date": "12/15/21", "time": "10:50", "title": "Reminder: Assignment 3", "content": "Dear all, I hope your week is going well so far. Wanted to reach to remind you about Assignment 3 that was presented and introduced to you in last week's session and that is DUE 05/12 (Sunday evening). Only 2 groups have reached out to me with doubts or questions with regards to the work itself. Here to help! See you tomorrow in class :) Kind regards, Prof. Lucas Mateu"},
+                        {"date": "10/18/21", "time": "10:22", "title": "Q&A link", "content": "Hi guys, as you must have seen on the Doodle, the selected time was: Oct-18th from 8pm-9pm Join Zoom Meeting https://ieuniversity.zoom.us/j/92307435287?pwd=MFNDeVpiWFVHT2s4cUo1TVM3blhHQT09 Meeting ID: 923 0743 5287 Passcode: 43895254"}
+                    ],
+                    "courseContent":[
+                        {"type": "pdf", "title":"Syllabus", "description":"Add or read the information about the course, sessions, content...","content":"bcsai-calculus-syllabus.pdf"},
+                        {"type": "folder", "title":"Notes", "description":"This folder contains the notes that will be provided throughout the course.", "content": [
+                            {"type": "folder", "title":"Module 1: Limits", "description":"This folder contains the material corresponding to Module 1 (Limits).", "content": [
+                                {"type": "pdf", "title":"notes_limits.pdf", "content": "notes_limits.pdf"}
+                            ]}
+                        ]}
+                    ],
+                    "assignment":[
+                        {"item": "Final Exam", "date": "10/2/21", "time": "23:59", "status": "Graded", "grade": "90/100", "feedback":"Congratulations Diego!"},
+                        {"item": "Problem Set 3", "date": "12/15/21", "time": "14:50", "status": "Pending", "grade": "-", "feedback":"-"},
+                        {"item": "Problem Set 2", "date": "11/19/21", "time": "14:50", "status": "Graded", "grade": "55/100", "feedback":"You can do better"}
+                    ]
+                }
+                
+            ]
+                    
+        },
+        "ieClubsData": {
+            "mygroups":[
+                {"id": 1, "name":"IE Coding Club","logo":"ie_code_club.jpg"},
+                {"id": 2, "name":"IE Cryptocurrency Club","logo":"ie_crypto_club.jpg"},
+                {"id": 3, "name":"IE Entrepeneurship Club","logo":"ie_entrepeneur_club.jpg"},
+                {"id": 4, "name":"Talent & Careers","logo":"ie_talent_careers.jpg"}
+            ]
+            
+        }
+    },
+    {
+        "id": "portega.ieu2020@student.ie.edu",
+        "password" : "ortego",
+        "covidTracerData": {
+            "status": "red",
+            "reason": "Required Antigen Test",
+            "dateAccessed": "31/12/2021",
+            "timeAccessed": "23:59",
+            "passport": "03593420B"
+        },
+        "blackboardData" :{
+            "studentId": "14463",
+            "image": "14463",
+            "name":"Pablo Ortega",
             "courses": [
                 {
                     "id": 1,

@@ -95,6 +95,20 @@ struct MenuItems1: View {
             NavigationLink(destination: UndoneView()) {
                 
                 VStack {
+                    Image(systemName: "calendar.badge.exclamationmark")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 50, height: 30)
+                        .padding(.bottom, 2)
+                    Text("Events")
+                        .font(.caption)
+                        .fontWeight(.semibold)
+                        .multilineTextAlignment(.center)
+                }
+            }.buttonStyle(.plain)
+            NavigationLink(destination: UndoneView()) {
+                
+                VStack {
                     Image(systemName: "character.book.closed")
                         .resizable()
                         .scaledToFit()
@@ -118,7 +132,7 @@ struct MenuItems1: View {
                         .fontWeight(.semibold)
                 }
             }.buttonStyle(.plain)
-            NavigationLink(destination: UndoneView()) {
+            /*NavigationLink(destination: UndoneView()) {
                 
                 VStack {
                     Image(systemName: "text.bubble")
@@ -130,7 +144,7 @@ struct MenuItems1: View {
                         .font(.caption)
                         .fontWeight(.semibold)
                 }
-            }.buttonStyle(.plain)
+            }.buttonStyle(.plain)*/
             NavigationLink(destination: StoreWebView()) {
                 
                 VStack {
@@ -157,20 +171,7 @@ struct MenuItems1: View {
                         .fontWeight(.semibold)
                 }
             }.buttonStyle(.plain)
-            NavigationLink(destination: UndoneView()) {
-                
-                VStack {
-                    Image(systemName: "calendar.badge.exclamationmark")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 50, height: 30)
-                        .padding(.bottom, 2)
-                    Text("Events")
-                        .font(.caption)
-                        .fontWeight(.semibold)
-                        .multilineTextAlignment(.center)
-                }
-            }.buttonStyle(.plain)
+            
             NavigationLink(destination: CovidWebView()) {
                 
                 VStack {
@@ -244,7 +245,7 @@ struct MenuItems2: View {
                         .fontWeight(.semibold)
                 }
             }.buttonStyle(.plain)
-            NavigationLink(destination: UndoneView()) {
+            NavigationLink(destination: MapWebView()) {
                 
                 VStack {
                     Image(systemName: "map.fill")
