@@ -5,9 +5,10 @@ All-in-one mobile App for university services that fetches student data from JSO
 Find Recordings of the App below.
 
 ## Login & Profiles
-<img src="https://user-images.githubusercontent.com/92187824/200693393-d3254c48-746c-4f5a-bac5-0e99aa2efd64.gif" height="350"/>
-
-
+<img src="https://github.com/dsanmart/IE_BETA_APP/blob/main/demos/Login%20demo.gif" height="350"/>
 
 ## Calendar, Courses & Announcements Tabs
+<img src="https://github.com/dsanmart/IE_BETA_APP/blob/main/demos/Main-tabs-demo.gif" height="350"/>
 
+## More & Settings Tabs
+<img src="https://github.com/dsanmart/IE_BETA_APP/blob/main/demos/More-Tabs-Demo.gif" height="350"/>
